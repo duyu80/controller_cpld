@@ -1,0 +1,1 @@
+ -erf "e:\work\controller_cpld\bld\ctrl_sim\compile\ctrl_sim.erf" -work work -lc e:/work/controller_cpld/bld/ctrl_sim/library.cfg -fl e:/work/controller_cpld/bld/ctrl_sim/projlib.cfg -o e:/work/controller_cpld/bld/ctrl_sim/compile -l "work" -sve   -O2

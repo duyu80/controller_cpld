@@ -1,0 +1,311 @@
+# Reading C:/modeltech64_10.2/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2 Feb  2 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+do tb_controller.do
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module UFM_WB
+# 
+# Top level modules:
+# 	UFM_WB
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module EFB_UFM
+# 
+# Top level modules:
+# 	EFB_UFM
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module USR_MEM
+# 
+# Top level modules:
+# 	USR_MEM
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module GPIO
+# 
+# Top level modules:
+# 	GPIO
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module I2C
+# 
+# Top level modules:
+# 	I2C
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module efb_ufm_top
+# 
+# Top level modules:
+# 	efb_ufm_top
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module HEADER
+# 
+# Top level modules:
+# 	HEADER
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module i2c_master_bit_ctrl
+# 
+# Top level modules:
+# 	i2c_master_bit_ctrl
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module i2c_master_byte_ctrl
+# 
+# Top level modules:
+# 	i2c_master_byte_ctrl
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module i2c_master_registers
+# 
+# Top level modules:
+# 	i2c_master_registers
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module i2c_master_wb_top
+# 
+# Top level modules:
+# 	i2c_master_wb_top
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module tb_controller
+# 
+# Top level modules:
+# 	tb_controller
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module wb_master
+# 
+# Top level modules:
+# 	wb_master
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module DELAY
+# 
+# Top level modules:
+# 	DELAY
+# vsim -L machxo2 -L lattice_blackbox1 -lib work -voptargs=\"+acc\" -t ns -novopt work.tb_controller 
+# Refreshing E:/work/controller_cpld/sim/work.tb_controller
+# Loading work.tb_controller
+# Loading machxo2.GSR
+# Loading machxo2.PUR
+# Refreshing E:/work/controller_cpld/sim/work.wb_master
+# Loading work.wb_master
+# Refreshing E:/work/controller_cpld/sim/work.DELAY
+# Loading work.DELAY
+# Refreshing E:/work/controller_cpld/sim/work.i2c_master_wb_top
+# Loading work.i2c_master_wb_top
+# Refreshing E:/work/controller_cpld/sim/work.i2c_master_byte_ctrl
+# Loading work.i2c_master_byte_ctrl
+# Refreshing E:/work/controller_cpld/sim/work.i2c_master_bit_ctrl
+# Loading work.i2c_master_bit_ctrl
+# Refreshing E:/work/controller_cpld/sim/work.i2c_master_registers
+# Loading work.i2c_master_registers
+# Refreshing E:/work/controller_cpld/sim/work.TOP
+# Loading work.TOP
+# Loading machxo2.OSCH
+# Refreshing E:/work/controller_cpld/sim/work.efb_ufm_top
+# Loading work.efb_ufm_top
+# Refreshing E:/work/controller_cpld/sim/work.UFM_WB
+# Loading work.UFM_WB
+# Refreshing E:/work/controller_cpld/sim/work.EFB_UFM
+# Loading work.EFB_UFM
+# Loading machxo2.VHI
+# Loading machxo2.VLO
+# Loading lattice_blackbox1.EFB
+# Loading lattice_blackbox1.efb_top
+# Loading lattice_blackbox1.sbnx8v1s
+# Loading lattice_blackbox1.tc_16bit
+# Loading lattice_blackbox1.sbnx2v1s
+# Loading lattice_blackbox1.syncprqx2v1s
+# Loading lattice_blackbox1.DW01_incdec
+# Loading lattice_blackbox1.efb_pll_sci
+# Loading lattice_blackbox1.efb_sci
+# Loading lattice_blackbox1.sci_mux
+# Loading lattice_blackbox1.noglitch_clkmux
+# Loading lattice_blackbox1.pipeline
+# Loading lattice_blackbox1.pipestage
+# Loading lattice_blackbox1.CKHS_OA22X2
+# Loading lattice_blackbox1.hsc_oa22x2v1e
+# Loading lattice_blackbox1.BUFX4
+# Loading lattice_blackbox1.sbnx4v1s
+# Loading lattice_blackbox1.sci_register_bit
+# Loading lattice_blackbox1.sci_interrupt_bit
+# Loading lattice_blackbox1.sci_pulse_bit
+# Loading lattice_blackbox1.sci_interrupt_neg
+# Loading lattice_blackbox1.wr_pulse
+# Loading lattice_blackbox1.config_plus
+# Loading lattice_blackbox1.stdby_cntl
+# Loading lattice_blackbox1.MUX2X2
+# Loading lattice_blackbox1.mux21x2v1s
+# Loading lattice_blackbox1.delc1x2v1s
+# Loading lattice_blackbox1.delc12
+# Loading lattice_blackbox1.delc3x2v1s
+# Loading lattice_blackbox1.redge_detect
+# Loading lattice_blackbox1.ANDabNX2
+# Loading lattice_blackbox1.nor2ix2v1s
+# Loading lattice_blackbox1.config_cntl
+# Loading lattice_blackbox1.config_io
+# Loading lattice_blackbox1.jtag_filter
+# Loading lattice_blackbox1.sbnx1v1s
+# Loading lattice_blackbox1.AO222S
+# Loading lattice_blackbox1.aoi222x2v1s
+# Loading lattice_blackbox1.invx4v1s
+# Loading lattice_blackbox1.config_core
+# Loading lattice_blackbox1.cfg_cdu
+# Loading lattice_blackbox1.cfg_clk
+# Loading lattice_blackbox1.cfg_div_smclk
+# Loading lattice_blackbox1.CKHS_MUX2X2
+# Loading lattice_blackbox1.hsc_mux21x2v1e
+# Loading lattice_blackbox1.CKHS_BUFX4
+# Loading lattice_blackbox1.hsc_sbnx4v1e
+# Loading lattice_blackbox1.cfg_div
+# Loading lattice_blackbox1.CKHS_MUX4X2
+# Loading lattice_blackbox1.hsc_mux41x2v1e
+# Loading lattice_blackbox1.cfg_pdec
+# Loading lattice_blackbox1.njport_unit
+# Loading lattice_blackbox1.cfg_port
+# Loading lattice_blackbox1.flag_dbl
+# Loading lattice_blackbox1.wbc_port
+# Loading lattice_blackbox1.cfg_i2c
+# Loading lattice_blackbox1.i2c_port
+# Loading lattice_blackbox1.spi_port
+# Loading lattice_blackbox1.cfg_pdrv
+# Loading lattice_blackbox1.cfg_data
+# Loading lattice_blackbox1.cfg_fifo
+# Loading lattice_blackbox1.cfg_cntl
+# Loading lattice_blackbox1.cfg_refresh
+# Loading lattice_blackbox1.cfg_prog_wakeup
+# Loading lattice_blackbox1.cfg_logic
+# Loading lattice_blackbox1.cfg_register
+# Loading lattice_blackbox1.cfg_qual
+# Loading lattice_blackbox1.cfg_bse
+# Loading lattice_blackbox1.cfg_driver
+# Loading lattice_blackbox1.jtag_cntl
+# Loading lattice_blackbox1.jtag_tap_cntl
+# Loading lattice_blackbox1.jtag_inst_dec
+# Loading lattice_blackbox1.jtag_logic
+# Loading lattice_blackbox1.jtag_register
+# Loading lattice_blackbox1.jtag_modal_1532
+# Loading lattice_blackbox1.jtag_qual
+# Loading lattice_blackbox1.njtag_cntl
+# Loading lattice_blackbox1.njtag_fsm
+# Loading lattice_blackbox1.njtag_modal
+# Loading lattice_blackbox1.njtag_register
+# Loading lattice_blackbox1.njtag_cmd_dec
+# Loading lattice_blackbox1.njtag_logic
+# Loading lattice_blackbox1.njtag_qual
+# Loading lattice_blackbox1.datap_unit
+# Loading lattice_blackbox1.sram_block
+# Loading lattice_blackbox1.sram_register
+# Loading lattice_blackbox1.sram_qual
+# Loading lattice_blackbox1.sram_exec
+# Loading lattice_blackbox1.sram_sed
+# Loading lattice_blackbox1.config_core_clocks
+# Loading lattice_blackbox1.CKHS_BUFX2
+# Loading lattice_blackbox1.hsc_sbnx2v1e
+# Loading lattice_blackbox1.CKHS_AND2X2
+# Loading lattice_blackbox1.hsc_and2x2v1e
+# Loading lattice_blackbox1.CKHS_XOR2X2
+# Loading lattice_blackbox1.hsc_xor2x2v1e
+# Loading lattice_blackbox1.CKHS_BUFX16
+# Loading lattice_blackbox1.hsc_sbnx16v1e
+# Loading lattice_blackbox1.CKHS_INVX1
+# Loading lattice_blackbox1.hsc_invx1v1e
+# Loading lattice_blackbox1.CKHS_DLAT_NLEV_CDN_PD_X2
+# Loading lattice_blackbox1.hsc_dlatnsrqnx2v1e
+# Loading lattice_blackbox1.CKHS_INVX2
+# Loading lattice_blackbox1.hsc_invx2v1e
+# Loading lattice_blackbox1.CKHS_NAND2IX2
+# Loading lattice_blackbox1.hsc_nand2ix2v1e
+# Loading lattice_blackbox1.vlov1s
+# Loading lattice_blackbox1.spare_gate_efb_0
+# Loading lattice_blackbox1.vhiv1s
+# Loading lattice_blackbox1.invx8v1s
+# Loading lattice_blackbox1.nand2x2v1s
+# Loading lattice_blackbox1.dffpsrqnx2v1s
+# Loading lattice_blackbox1.spare_gate_efb_1
+# Loading lattice_blackbox1.spare_gate_efb_2
+# Loading lattice_blackbox1.spare_gate_efb_3
+# Loading lattice_blackbox1.flash_top
+# Loading lattice_blackbox1.xo2_flash
+# Refreshing E:/work/controller_cpld/sim/work.USR_MEM
+# Loading work.USR_MEM
+# Loading machxo2.DP8KC
+# Refreshing E:/work/controller_cpld/sim/work.I2C
+# Loading work.I2C
+# Refreshing E:/work/controller_cpld/sim/work.GPIO
+# Loading work.GPIO
+# Refreshing E:/work/controller_cpld/sim/work.HEADER
+# Loading work.HEADER
+# Loading lattice_blackbox1.sig_sync
+# Loading lattice_blackbox1.cfg_act_senser
+# Loading lattice_blackbox1.cfgrst_gen
+# Loading lattice_blackbox1.decompress_unit
+# Loading lattice_blackbox1.cfg_dec
+# Loading lattice_blackbox1.cfg_crc16
+# Loading lattice_blackbox1.flash_block
+# Loading lattice_blackbox1.flash_register
+# Loading lattice_blackbox1.flash_qual
+# Loading lattice_blackbox1.flash_exec
+# Loading lattice_blackbox1.fe_gen
+# Loading lattice_blackbox1.re_gen
+# Loading lattice_blackbox1.flash_ctrl
+# Loading lattice_blackbox1.flash_dnld
+# Loading lattice_blackbox1.flash_pptc
+# Loading lattice_blackbox1.flash_cdm
+# Loading lattice_blackbox1.flash_sdm
+# ** Warning: (vsim-3015) E:/work/controller_cpld/sim/tb_controller.v(83): [PCDPC] - Port size (8 or 8) does not match connection size (3) for port 'adr'. The port definition is at: E:/work/controller_cpld/sim/wb_master.v(3).
+# 
+#         Region: /tb_controller/u0
+# ** Warning: (vsim-3015) E:/work/controller_cpld/sim/wb_master.v(114): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'DISABLE_IN'. The port definition is at: E:/work/controller_cpld/sim/DELAY.v(17).
+# 
+#         Region: /tb_controller/u0/delay_ins
+# ** Warning: (vsim-3017) E:/work/controller_cpld/sim/tb_controller.v(110): [TFMPC] - Too few port connections. Expected 4, found 3.
+# 
+#         Region: /tb_controller/TOP_INST
+# ** Warning: (vsim-3722) E:/work/controller_cpld/sim/tb_controller.v(110): [TFMPC] - Missing connection for port 'LED'.
+# 
+# ** Warning: (vsim-3017) E:/work/controller_cpld/src/TOP.v(49): [TFMPC] - Too few port connections. Expected 3, found 1.
+# 
+#         Region: /tb_controller/TOP_INST/clk_inst
+# ** Warning: (vsim-3722) E:/work/controller_cpld/src/TOP.v(49): [TFMPC] - Missing connection for port 'STDBY'.
+# 
+# ** Warning: (vsim-3722) E:/work/controller_cpld/src/TOP.v(49): [TFMPC] - Missing connection for port 'SEDSTDBY'.
+# 
+# ** Warning: (vsim-3017) E:/work/controller_cpld/src/TOP.v(71): [TFMPC] - Too few port connections. Expected 7, found 4.
+# 
+#         Region: /tb_controller/TOP_INST/i_efb_ufm_top
+# ** Warning: (vsim-3722) E:/work/controller_cpld/src/TOP.v(71): [TFMPC] - Missing connection for port 'URT_INTERCONN_SET'.
+# 
+# ** Warning: (vsim-3722) E:/work/controller_cpld/src/TOP.v(71): [TFMPC] - Missing connection for port 'URT_KEY_DISABLE_SET'.
+# 
+# ** Warning: (vsim-3722) E:/work/controller_cpld/src/TOP.v(71): [TFMPC] - Missing connection for port 'diag'.
+# 
+# ** Warning: (vsim-3015) E:/work/controller_cpld/src/efb_top.v(145): [PCDPC] - Port size (11 or 11) does not match connection size (32) for port 'ufm_page'. The port definition is at: E:/work/controller_cpld/src/UFM_WB_top.v(52).
+# 
+#         Region: /tb_controller/TOP_INST/i_efb_ufm_top/UUT
+# Loading lattice_blackbox1.POSCDAC_UDP
+# Loading lattice_blackbox1.POSFFAC_UDP
+# Loading lattice_blackbox1.TGM2_UDP
+# Loading lattice_blackbox1.TGM4_UDP
+# Loading lattice_blackbox1.LN4_UDP
+# Loading lattice_blackbox1.DNEQ_UDP
+# Loading lattice_blackbox1.NNP_UDP
+# Loading lattice_blackbox1.PDCHK_UDP
+# Loading lattice_blackbox1.CDCHK_UDP
+# Loading lattice_blackbox1.NP_UDP
+# ** Warning: (vsim-3017) E:/work/controller_cpld/src/TOP.v(161): [TFMPC] - Too few port connections. Expected 12, found 9.
+# 
+#         Region: /tb_controller/TOP_INST/HEADER_INST
+# ** Warning: (vsim-3722) E:/work/controller_cpld/src/TOP.v(161): [TFMPC] - Missing connection for port 'mem_rd_data'.
+# 
+# ** Warning: (vsim-3722) E:/work/controller_cpld/src/TOP.v(161): [TFMPC] - Missing connection for port 'BUSY'.
+# 
+# ** Warning: (vsim-3722) E:/work/controller_cpld/src/TOP.v(161): [TFMPC] - Missing connection for port 'ERR'.
+# 
+# ** Error: (vsim-3601) Iteration limit reached at time 0 ns.
+# 
+quit

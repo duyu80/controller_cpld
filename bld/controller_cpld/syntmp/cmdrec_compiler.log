@@ -1,0 +1,17 @@
+D:\lscc\diamond\3.2_x64\synpbase\bin64\c_ver.exe  -osyn  E:\work\controller_cpld\bld\controller_cpld\synwork\controller_cpld_controller_cpld_comp.srs  -top  TOP  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -divnmod -I E:\work\controller_cpld\bld  -I E:\work\controller_cpld\bld\controller_cpld\  -I D:\lscc\diamond\3.2_x64\synpbase\lib  -v2001  -devicelib  D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v  -devicelib  D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  E:\work\controller_cpld\bld\controller_cpld\dm  -ui -fid2 -ram -sharing on  -ll 2000 -autosm -D_MULTIPLE_FILE_COMPILATION_UNIT_ -lib work E:\work\controller_cpld\bld\..\src\efb_define_def.v -lib work E:\work\controller_cpld\bld\..\src\UFM_WB_top.v -lib work E:\work\controller_cpld\bld\..\ip\EFB_UFM.v -lib work E:\work\controller_cpld\bld\..\ip\USR_MEM.v -lib work E:\work\controller_cpld\bld\..\src\GPIO.v -lib work E:\work\controller_cpld\bld\..\src\I2C.v -lib work E:\work\controller_cpld\bld\..\src\TOP.v -lib work E:\work\controller_cpld\bld\..\src\HEADER.v -lib work E:\work\controller_cpld\bld\..\src\efb_top.v -loga  E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srr 
+rc:1 success:1
+E:\work\controller_cpld\bld\controller_cpld\synwork\controller_cpld_controller_cpld_comp.srs|o|1423064263|52653
+D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v|i|1397610298|51625
+D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v|i|1397610298|40584
+E:\work\controller_cpld\bld\..\src\efb_define_def.v|i|1422965317|14608
+E:\work\controller_cpld\bld\..\src\UFM_WB_top.v|i|1423062856|34974
+E:\work\controller_cpld\bld\..\ip\EFB_UFM.v|i|1423063802|6118
+E:\work\controller_cpld\bld\..\ip\USR_MEM.v|i|1423048594|7624
+E:\work\controller_cpld\bld\..\src\GPIO.v|i|1423064247|5942
+E:\work\controller_cpld\bld\..\src\I2C.v|i|1422148205|17030
+E:\work\controller_cpld\bld\..\src\TOP.v|i|1423064193|5616
+E:\work\controller_cpld\bld\..\src\HEADER.v|i|1422891232|2138
+E:\work\controller_cpld\bld\..\src\efb_top.v|i|1423048424|7075
+E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srr|o|1423064263|21959
+D:\lscc\diamond\3.2_x64\synpbase\bin64\c_ver.exe|i|1397577714|5735936
+D:\lscc\diamond\3.2_x64\synpbase\bin\c_ver.exe|i|1397577496|2207232

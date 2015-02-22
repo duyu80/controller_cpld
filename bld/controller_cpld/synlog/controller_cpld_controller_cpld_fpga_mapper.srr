@@ -1,0 +1,513 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 908R, Built Apr 16 2014 10:10:17
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"e:\work\controller_cpld\bld\..\src\i2c.v":122:43:122:48|Net I2C_INST.un1_CNT8 appears to be an unidentified clock source. Assuming default frequency. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N:"e:\work\controller_cpld\bld\..\src\top.v":51:0:51:5|Found counter in view:work.TOP(verilog) inst cnt[20:0]
+@W: BN132 :"e:\work\controller_cpld\bld\..\src\header.v":41:0:41:5|Removing instance HEADER_INST.DOUT[7],  because it is equivalent to instance HEADER_INST.DOUT[6]
+@W: BN132 :"e:\work\controller_cpld\bld\..\src\header.v":41:0:41:5|Removing instance HEADER_INST.DOUT[3],  because it is equivalent to instance HEADER_INST.DOUT[1]
+@W: BN132 :"e:\work\controller_cpld\bld\..\src\header.v":41:0:41:5|Removing instance HEADER_INST.DOUT[1],  because it is equivalent to instance HEADER_INST.DOUT[0]
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\header.v":41:0:41:5|Removing sequential instance HEADER_INST.DOUT[0] in hierarchy view:work.TOP(verilog) because there are no references to its outputs 
+Encoding state machine wr_sm_q[6:0] (view:work.efb_ufm_top(verilog))
+original code -> new code
+   0000000000000001 -> 0000001
+   0000000000000010 -> 0000010
+   0000000000000100 -> 0000100
+   0000000000001000 -> 0001000
+   0000000000010000 -> 0010000
+   0000000000100000 -> 0100000
+   0000000001000000 -> 1000000
+Encoding state machine rd_sm_q[5:0] (view:work.efb_ufm_top(verilog))
+original code -> new code
+   0000000000000001 -> 000001
+   0000000000000010 -> 000010
+   0000000000000100 -> 000100
+   0000000000001000 -> 001000
+   0000000000010000 -> 010000
+   0000000000100000 -> 100000
+@N:"e:\work\controller_cpld\bld\..\src\efb_top.v":114:0:114:5|Found counter in view:work.efb_ufm_top(verilog) inst cnt[5:0]
+Encoding state machine c_state[61:0] (view:work.UFM_WB_2s(verilog))
+original code -> new code
+   00000000 -> 000000
+   00000001 -> 000001
+   00000010 -> 000011
+   00000011 -> 000010
+   00000100 -> 000110
+   00000101 -> 000111
+   00000110 -> 000101
+   00000111 -> 000100
+   00001000 -> 001100
+   00001001 -> 001101
+   00001010 -> 001111
+   00001011 -> 001110
+   00001100 -> 001010
+   00001101 -> 001011
+   00001110 -> 001001
+   00001111 -> 001000
+   00010000 -> 011000
+   00010001 -> 011001
+   00010010 -> 011011
+   00010011 -> 011010
+   00010100 -> 011110
+   00010101 -> 011111
+   00010110 -> 011101
+   00010111 -> 011100
+   00011000 -> 010100
+   00011001 -> 010101
+   00011010 -> 010111
+   00011011 -> 010110
+   00011100 -> 010010
+   00011101 -> 010011
+   00011110 -> 010001
+   00011111 -> 010000
+   00100000 -> 110000
+   00100001 -> 110001
+   00100010 -> 110011
+   00100011 -> 110010
+   00100100 -> 110110
+   00100101 -> 110111
+   00100110 -> 110101
+   00100111 -> 110100
+   00101000 -> 111100
+   00101001 -> 111101
+   00101010 -> 111111
+   00101011 -> 111110
+   00101100 -> 111010
+   00101101 -> 111011
+   00101110 -> 111001
+   00101111 -> 111000
+   00110000 -> 101000
+   00110001 -> 101001
+   00110010 -> 101011
+   00110011 -> 101010
+   00110100 -> 101110
+   00110101 -> 101111
+   00110110 -> 101101
+   00110111 -> 101100
+   00111000 -> 100100
+   00111001 -> 100101
+   00111010 -> 100111
+   00111011 -> 100110
+   00111100 -> 100010
+   00111101 -> 100011
+@N:"e:\work\controller_cpld\bld\..\src\ufm_wb_top.v":173:1:173:6|Found counter in view:work.UFM_WB_2s(verilog) inst sm_addr[3:0]
+Encoding state machine STATE[4:0] (view:work.I2C(verilog))
+original code -> new code
+   00000001 -> 00001
+   00000010 -> 00010
+   00000100 -> 00100
+   00001000 -> 01000
+   00100000 -> 10000
+@N:"e:\work\controller_cpld\bld\..\src\i2c.v":229:0:229:5|Found counter in view:work.I2C(verilog) inst LOC[7:0]
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[15] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[14] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[13] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[12] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[11] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[9] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[8] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[7] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[6] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[5] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[4] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[3] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[2] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CSD1[1] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[15] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[14] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[13] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[12] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[11] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[9] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[8] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[7] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[6] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[5] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[4] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[3] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[2] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\i2c.v":257:0:257:5|Removing sequential instance PORT_CS[1] of view:PrimLib.dffr(prim) in hierarchy view:work.I2C(verilog) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 149MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 149MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 149MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 149MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 169MB peak: 193MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 193MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 152MB peak: 193MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 341 clock pin(s) of sequential element(s)
+0 instances converted, 341 sequential instances remain driven by gated/generated clocks
+
+========================================================================================================= Gated/Generated Clocks =========================================================================================================
+Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance               Explanation                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clk_inst                  OSCH                   333        I2C_INST_MASTER_RD_NACKio     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       I2C_INST.CNT8_RNIR9LQ     ORCALUT4               8          I2C_INST.CHECKSUM_OUT[0]      No clocks found on inputs                                                                                                     
+==========================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srm
+@W: MT462 :"e:\work\controller_cpld\bld\..\src\i2c.v":251:13:251:50|Net I2C_INST.N_36_i appears to be an unidentified clock source. Assuming default frequency. 
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 151MB peak: 193MB)
+
+Writing EDIF Netlist and constraint files
+@W: MT462 :"e:\work\controller_cpld\bld\..\src\i2c.v":251:13:251:50|Net I2C_INST.N_36_i appears to be an unidentified clock source. Assuming default frequency. 
+I-2013.09L-SP1-1 
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 155MB peak: 193MB)
+
+@W: MT246 :"e:\work\controller_cpld\bld\..\src\top.v":42:16:42:23|Blackbox OSCH is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"e:\work\controller_cpld\bld\..\ip\efb_ufm.v":92:8:92:16|Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock TOP|SYSCLK_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:SYSCLK"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Feb 04 23:37:49 2015
+#
+
+
+Top view:               TOP
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 498.252
+
+                              Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                Frequency     Frequency     Period        Period        Slack       Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------
+TOP|SYSCLK_inferred_clock     1.0 MHz       85.7 MHz      1000.000      11.668        498.252     inferred     Inferred_clkgroup_0
+System                        1.0 MHz       152.7 MHz     1000.000      6.551         993.449     system       system_clkgroup    
+==================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise     |    fall  to  fall   |    rise  to  fall     |    fall  to  rise   
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack    |  constraint  slack  |  constraint  slack    |  constraint  slack  
+--------------------------------------------------------------------------------------------------------------------------------------------------
+System                     TOP|SYSCLK_inferred_clock  |  1000.000    993.449  |  No paths    -      |  No paths    -        |  No paths    -      
+TOP|SYSCLK_inferred_clock  System                     |  1000.000    998.732  |  No paths    -      |  No paths    -        |  1000.000    995.265
+TOP|SYSCLK_inferred_clock  TOP|SYSCLK_inferred_clock  |  1000.000    988.332  |  No paths    -      |  500.000     498.252  |  500.000     498.364
+==================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: TOP|SYSCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                            Arrival            
+Instance                   Reference                     Type        Pin     Net               Time        Slack  
+                           Clock                                                                                  
+------------------------------------------------------------------------------------------------------------------
+I2C_INST.PORT_CSD1[10]     TOP|SYSCLK_inferred_clock     FD1S3DX     Q       PORT_CSD1[10]     1.220       498.252
+I2C_INST.PORT_CSD1[0]      TOP|SYSCLK_inferred_clock     FD1S3DX     Q       PORT_CSD1[0]      1.180       498.292
+I2C_INST.RD_END2           TOP|SYSCLK_inferred_clock     FD1S3DX     Q       RD_END2           1.220       498.309
+I2C_INST.REG_DIN[0]        TOP|SYSCLK_inferred_clock     FD1P3DX     Q       REG_DIN[0]        1.108       498.364
+HEADER_INST.DOUT[6]        TOP|SYSCLK_inferred_clock     FD1P3DX     Q       DIN_0[7]          1.044       498.428
+I2C_INST.REG_DIN[1]        TOP|SYSCLK_inferred_clock     FD1P3DX     Q       REG_DIN[1]        1.044       498.428
+I2C_INST.REG_DIN[2]        TOP|SYSCLK_inferred_clock     FD1P3DX     Q       REG_DIN[2]        1.044       498.428
+I2C_INST.REG_DIN[3]        TOP|SYSCLK_inferred_clock     FD1P3DX     Q       REG_DIN[3]        1.044       498.428
+I2C_INST.REG_DIN[4]        TOP|SYSCLK_inferred_clock     FD1P3DX     Q       REG_DIN[4]        1.044       498.428
+I2C_INST.REG_DIN[5]        TOP|SYSCLK_inferred_clock     FD1P3DX     Q       REG_DIN[5]        1.044       498.428
+==================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                              Required            
+Instance                Reference                     Type        Pin     Net                 Time         Slack  
+                        Clock                                                                                     
+------------------------------------------------------------------------------------------------------------------
+I2C_INST.REG_DIN[0]     TOP|SYSCLK_inferred_clock     FD1P3DX     D       un23_REG_DIN[0]     500.089      498.252
+I2C_INST.REG_DIN[1]     TOP|SYSCLK_inferred_clock     FD1P3DX     D       un23_REG_DIN[1]     500.089      498.252
+I2C_INST.REG_DIN[2]     TOP|SYSCLK_inferred_clock     FD1P3DX     D       un2_REG_DIN[2]      500.089      498.252
+I2C_INST.REG_DIN[3]     TOP|SYSCLK_inferred_clock     FD1P3DX     D       un23_REG_DIN[3]     500.089      498.252
+I2C_INST.REG_DIN[4]     TOP|SYSCLK_inferred_clock     FD1P3DX     D       un2_REG_DIN[4]      500.089      498.252
+I2C_INST.REG_DIN[5]     TOP|SYSCLK_inferred_clock     FD1P3DX     D       un2_REG_DIN[5]      500.089      498.252
+I2C_INST.REG_DIN[6]     TOP|SYSCLK_inferred_clock     FD1P3DX     D       un2_REG_DIN[6]      500.089      498.252
+I2C_INST.REG_DIN[7]     TOP|SYSCLK_inferred_clock     FD1P3DX     D       un2_REG_DIN[7]      500.089      498.252
+I2C_INST.REG_DIN[0]     TOP|SYSCLK_inferred_clock     FD1P3DX     SP      RD_END2             499.528      498.309
+I2C_INST.REG_DIN[1]     TOP|SYSCLK_inferred_clock     FD1P3DX     SP      RD_END2             499.528      498.309
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         500.089
+
+    - Propagation time:                      1.837
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     498.252
+
+    Number of logic level(s):                1
+    Starting point:                          I2C_INST.PORT_CSD1[10] / Q
+    Ending point:                            I2C_INST.REG_DIN[2] / D
+    The start point is clocked by            TOP|SYSCLK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            TOP|SYSCLK_inferred_clock [falling] on pin CK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+I2C_INST.PORT_CSD1[10]      FD1S3DX      Q        Out     1.220     1.220       -         
+PORT_CSD1[10]               Net          -        -       -         -           8         
+I2C_INST.un2_REG_DIN[2]     ORCALUT4     D        In      0.000     1.220       -         
+I2C_INST.un2_REG_DIN[2]     ORCALUT4     Z        Out     0.617     1.837       -         
+un2_REG_DIN[2]              Net          -        -       -         -           1         
+I2C_INST.REG_DIN[2]         FD1P3DX      D        In      0.000     1.837       -         
+==========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                      Starting                                                  Arrival            
+Instance                              Reference     Type        Pin         Net                 Time        Slack  
+                                      Clock                                                                        
+-------------------------------------------------------------------------------------------------------------------
+i_efb_ufm_top.UUT.inst1.EFBInst_0     System        EFB         WBACKO      wb_ack_o            0.000       993.449
+I2C_INST.CHECKSUM_OUT[1]              System        FD1S1AY     Q           CHECKSUM_OUT[1]     0.972       997.483
+I2C_INST.CHECKSUM_OUT[2]              System        FD1S1AY     Q           CHECKSUM_OUT[2]     0.972       997.483
+I2C_INST.CHECKSUM_OUT[3]              System        FD1S1AY     Q           CHECKSUM_OUT[3]     0.972       997.483
+I2C_INST.CHECKSUM_OUT[4]              System        FD1S1AY     Q           CHECKSUM_OUT[4]     0.972       997.483
+I2C_INST.CHECKSUM_OUT[5]              System        FD1S1AY     Q           CHECKSUM_OUT[5]     0.972       997.483
+I2C_INST.CHECKSUM_OUT[6]              System        FD1S1AY     Q           CHECKSUM_OUT[6]     0.972       997.483
+I2C_INST.CHECKSUM_OUT[7]              System        FD1S1AY     Q           CHECKSUM_OUT[7]     0.972       997.483
+i_efb_ufm_top.UUT.inst1.EFBInst_0     System        EFB         WBDATO7     wb_dat_o[7]         0.000       998.455
+I2C_INST.CHECKSUM_OUT[0]              System        FD1S1AY     Q           CHECKSUM_OUT[0]     0.972       998.500
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                                    Required            
+Instance                          Reference     Type        Pin     Net                       Time         Slack  
+                                  Clock                                                                           
+------------------------------------------------------------------------------------------------------------------
+i_efb_ufm_top.UUT.count[3]        System        FD1S3BX     D       n_count[3]                1000.089     993.449
+i_efb_ufm_top.UUT.count[4]        System        FD1S3DX     D       n_count[4]                1000.089     993.449
+i_efb_ufm_top.UUT.count[1]        System        FD1S3BX     D       n_count[1]                1000.089     993.592
+i_efb_ufm_top.UUT.count[2]        System        FD1S3BX     D       n_count[2]                1000.089     993.592
+i_efb_ufm_top.UUT.wb_dat_i[6]     System        FD1S3DX     D       n_wb_dat_i[6]             1000.089     994.668
+i_efb_ufm_top.UUT.c_state[0]      System        FD1S3DX     D       c_state_ns_i_0_i          1000.089     994.956
+i_efb_ufm_top.UUT.c_state[2]      System        FD1S3DX     D       c_state_ns[2]             1000.089     995.405
+i_efb_ufm_top.UUT.BUSY            System        FD1P3BX     SP      un1_n_wb_dat_i223_3_0     999.528      995.412
+i_efb_ufm_top.UUT.count[0]        System        FD1S3BX     D       n_count[0]                1000.089     995.533
+i_efb_ufm_top.UUT.wb_dat_i[3]     System        FD1S3DX     D       n_wb_dat_i[3]             1000.089     995.685
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.089
+
+    - Propagation time:                      6.640
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 993.449
+
+    Number of logic level(s):                7
+    Starting point:                          i_efb_ufm_top.UUT.inst1.EFBInst_0 / WBACKO
+    Ending point:                            i_efb_ufm_top.UUT.count[4] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            TOP|SYSCLK_inferred_clock [rising] on pin CK
+
+Instance / Net                                             Pin        Pin               Arrival     No. of    
+Name                                          Type         Name       Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+i_efb_ufm_top.UUT.inst1.EFBInst_0             EFB          WBACKO     Out     0.000     0.000       -         
+wb_ack_o                                      Net          -          -       -         -           12        
+i_efb_ufm_top.UUT.inst1.EFBInst_0_RNIAFC4     ORCALUT4     A          In      0.000     0.000       -         
+i_efb_ufm_top.UUT.inst1.EFBInst_0_RNIAFC4     ORCALUT4     Z          Out     0.449     0.449       -         
+N_976_1                                       Net          -          -       -         -           30        
+i_efb_ufm_top.UUT.n_count_0_sqmuxa_0_a7_1     ORCALUT4     B          In      0.000     0.449       -         
+i_efb_ufm_top.UUT.n_count_0_sqmuxa_0_a7_1     ORCALUT4     Z          Out     1.089     1.538       -         
+N_583_1                                       Net          -          -       -         -           2         
+i_efb_ufm_top.UUT.un1_c_state_6_i_a7          ORCALUT4     A          In      0.000     1.538       -         
+i_efb_ufm_top.UUT.un1_c_state_6_i_a7          ORCALUT4     Z          Out     1.249     2.786       -         
+N_583                                         Net          -          -       -         -           7         
+i_efb_ufm_top.UUT.un1_count_5_cry_0_0         CCU2D        B1         In      0.000     2.786       -         
+i_efb_ufm_top.UUT.un1_count_5_cry_0_0         CCU2D        COUT       Out     1.545     4.331       -         
+un1_count_5_cry_0                             Net          -          -       -         -           1         
+i_efb_ufm_top.UUT.un1_count_5_cry_1_0         CCU2D        CIN        In      0.000     4.331       -         
+i_efb_ufm_top.UUT.un1_count_5_cry_1_0         CCU2D        COUT       Out     0.143     4.474       -         
+un1_count_5_cry_2                             Net          -          -       -         -           1         
+i_efb_ufm_top.UUT.un1_count_5_cry_3_0         CCU2D        CIN        In      0.000     4.474       -         
+i_efb_ufm_top.UUT.un1_count_5_cry_3_0         CCU2D        S1         Out     1.549     6.023       -         
+un1_count_5_cry_3_0_S1                        Net          -          -       -         -           1         
+i_efb_ufm_top.UUT.n_count_0_f0[4]             ORCALUT4     D          In      0.000     6.023       -         
+i_efb_ufm_top.UUT.n_count_0_f0[4]             ORCALUT4     Z          Out     0.617     6.640       -         
+n_count[4]                                    Net          -          -       -         -           1         
+i_efb_ufm_top.UUT.count[4]                    FD1S3DX      D          In      0.000     6.640       -         
+==============================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_1200ze-2
+
+Register bits: 331 of 1280 (26%)
+Latch bits:      8
+PIC Latch:       0
+I/O cells:       6
+Block Rams : 1 of 7 (14%)
+
+
+Details:
+BB:             3
+CCU2D:          28
+DP8KC:          1
+EFB:            1
+FD1P3AX:        8
+FD1P3BX:        2
+FD1P3DX:        201
+FD1P3IX:        17
+FD1S1AY:        8
+FD1S3AX:        27
+FD1S3AY:        1
+FD1S3BX:        5
+FD1S3DX:        43
+FD1S3IX:        24
+FD1S3JX:        1
+GSR:            1
+IB:             2
+IFS1P3DX:       2
+INV:            5
+OB:             1
+ORCALUT4:       490
+OSCH:           1
+PFUMX:          1
+PUR:            1
+VHI:            8
+VLO:            8
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 53MB peak: 193MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Wed Feb 04 23:37:50 2015
+
+###########################################################]

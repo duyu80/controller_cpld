@@ -1,0 +1,685 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile E:/work/controller_cpld/src/HEADER.v
+# Adding file E:\work\controller_cpld\src\HEADER.v ... Done
+addfile E:/work/controller_cpld/src/GPIO.v
+# Adding file E:\work\controller_cpld\src\GPIO.v ... Done
+addfile E:/work/controller_cpld/src/I2C.v
+# Adding file E:\work\controller_cpld\src\I2C.v ... Done
+addfile E:/work/controller_cpld/ip/USR_MEM.v
+# Adding file E:\work\controller_cpld\ip\USR_MEM.v ... Done
+addfile E:/work/controller_cpld/ip/EFB_UFM.v
+# Adding file E:\work\controller_cpld\ip\EFB_UFM.v ... Done
+addfile E:/work/controller_cpld/src/UFM_WB_top.v
+# Adding file E:\work\controller_cpld\src\UFM_WB_top.v ... Done
+addfile E:/work/controller_cpld/src/efb_top.v
+# Adding file E:\work\controller_cpld\src\efb_top.v ... Done
+addfile E:/work/controller_cpld/src/TOP.v
+# Adding file E:\work\controller_cpld\src\TOP.v ... Done
+addfile E:/work/controller_cpld/sim/i2c_master_registers.v
+# Adding file E:\work\controller_cpld\sim\i2c_master_registers.v ... Done
+addfile E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v
+# Adding file E:\work\controller_cpld\sim\i2c_master_bit_ctrl.v ... Done
+addfile E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v
+# Adding file E:\work\controller_cpld\sim\i2c_master_byte_ctrl.v ... Done
+addfile E:/work/controller_cpld/sim/i2c_master_wb_top.v
+# Adding file E:\work\controller_cpld\sim\i2c_master_wb_top.v ... Done
+addfile E:/work/controller_cpld/sim/DELAY.v
+# Adding file E:\work\controller_cpld\sim\DELAY.v ... Done
+addfile E:/work/controller_cpld/sim/wb_master.v
+# Adding file E:\work\controller_cpld\sim\wb_master.v ... Done
+addfile E:/work/controller_cpld/sim/tb_controller.v
+# Adding file E:\work\controller_cpld\sim\tb_controller.v ... Done
+addfile E:/work/controller_cpld/src/efb_define_def.v
+# Adding file E:\work\controller_cpld\src\efb_define_def.v ... Done
+addfile E:/work/controller_cpld/sim/i2c_master_defines.v
+# Adding file E:\work\controller_cpld\sim\i2c_master_defines.v ... Done
+vlib E:/work/controller_cpld/bld/rd1126/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg E:/work/controller_cpld/src/HEADER.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: HEADER.
+# $root top modules: HEADER.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/src/GPIO.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Unit top modules: GPIO.
+# $root top modules: HEADER GPIO.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/src/I2C.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (E:/work/controller_cpld/src/I2C.v, ln 365).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Unit top modules: I2C.
+# $root top modules: HEADER GPIO I2C.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg E:/work/controller_cpld/ip/USR_MEM.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Unit top modules: USR_MEM.
+# $root top modules: HEADER GPIO I2C USR_MEM.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/ip/EFB_UFM.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Unit top modules: EFB_UFM.
+# $root top modules: HEADER GPIO I2C USR_MEM EFB_UFM.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/src/UFM_WB_top.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Unit top modules: UFM_WB.
+# $root top modules: HEADER GPIO I2C UFM_WB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/src/efb_top.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (E:/work/controller_cpld/src/efb_top.v, ln 153).
+# Parameters in case labels, will not check for overlapping labels (E:/work/controller_cpld/src/efb_top.v, ln 165).
+# Parameters in case labels, will not check for overlapping labels (E:/work/controller_cpld/src/efb_top.v, ln 201).
+# Parameters in case labels, will not check for overlapping labels (E:/work/controller_cpld/src/efb_top.v, ln 216).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Unit top modules: efb_ufm_top.
+# $root top modules: HEADER GPIO I2C efb_ufm_top.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/src/TOP.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module efb_ufm_top found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 ../src/TOP.v : (47, 40): Implicit net declaration, symbol SYSCLK has not been declared in module TOP.
+# Info: VCP2876 ../src/TOP.v : (145, 42): Implicit net declaration, symbol BUSY has not been declared in module TOP.
+# Warning: VCP2597 ../src/TOP.v : (64, 1): Some unconnected ports remain at instance: i_efb_ufm_top. Module efb_ufm_top has unconnected  port(s) : diag.
+# Warning: VCP2597 ../src/TOP.v : (148, 1): Some unconnected ports remain at instance: HEADER_INST. Module HEADER has unconnected  port(s) : mem_rd_data, BUSY, ERR.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: TOP.
+# $root top modules: TOP.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/sim/i2c_master_registers.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Unit top modules: i2c_master_registers.
+# $root top modules: TOP i2c_master_registers.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v, ln 399).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Unit top modules: i2c_master_bit_ctrl.
+# $root top modules: TOP i2c_master_registers i2c_master_bit_ctrl.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v, ln 280).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Info: VCP2113 Module i2c_master_bit_ctrl found in current working library.
+# Unit top modules: i2c_master_byte_ctrl.
+# $root top modules: TOP i2c_master_registers i2c_master_bit_ctrl i2c_master_byte_ctrl.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/sim/i2c_master_wb_top.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2c_master_byte_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_bit_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Unit top modules: i2c_master_wb_top.
+# $root top modules: TOP i2c_master_wb_top.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/sim/DELAY.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Info: VCP2113 Module i2c_master_wb_top found in current working library.
+# Unit top modules: DELAY.
+# $root top modules: TOP i2c_master_wb_top DELAY.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/sim/wb_master.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module DELAY found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (E:/work/controller_cpld/sim/wb_master.v, ln 145).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Info: VCP2113 Module i2c_master_wb_top found in current working library.
+# Unit top modules: wb_master.
+# $root top modules: TOP i2c_master_wb_top wb_master.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/sim/tb_controller.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module wb_master found in current working library.
+# Info: VCP2113 Module DELAY found in current working library.
+# Info: VCP2113 Module i2c_master_wb_top found in current working library.
+# Info: VCP2113 Module i2c_master_byte_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_bit_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Info: VCP2113 Module efb_ufm_top found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module DELAY found in current working library.
+# Info: VCP2113 Module i2c_master_byte_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_bit_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Info: VCP2113 Module efb_ufm_top found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 ../sim/tb_controller.v : (105, 1): Some unconnected ports remain at instance: TOP_INST. Module TOP has unconnected  port(s) : LED.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb_controller.
+# $root top modules: tb_controller.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/src/efb_define_def.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2640 No modules defined.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module tb_controller found in current working library.
+# $root top modules: tb_controller.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg E:/work/controller_cpld/sim/i2c_master_defines.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2640 No modules defined.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module tb_controller found in current working library.
+# $root top modules: tb_controller.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+module tb_controller
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'efb_ufm_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'efb_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_0' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+vsim +access +r tb_controller -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'efb_ufm_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'efb_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_0' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\lscc\diamond\3.2_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELBREAD: Warning: Too few port connections. Region: /tb_controller/TOP_INST/clk_inst
+# ELAB2: Warning: ELAB2_0051 tb_controller.v (61): Length of connection (3) does not match the length of port "adr" (8) on instance "/tb_controller/u0"
+# ELAB2: Warning: ELAB2_0051 wb_master.v (104): Length of connection (32) does not match the length of port "DISABLE_IN" (1) on instance "/tb_controller/u0/delay_ins"
+# ELAB2: Warning: ELAB2_0051 efb_top.v (181): Length of connection (32) does not match the length of port "ufm_page" (11) on instance "/tb_controller/TOP_INST/i_efb_ufm_top/UUT"
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 18271 kB (elbread=4109 elab2=13609 kernel=553 sdf=0)
+# KERNEL: ASDB file was created in location E:\work\controller_cpld\bld\rd1126\src\wave.asdb
+#  18:04, 2015年2月4日
+#  Simulation has been initialized
+#  Selected Top-Level: tb_controller (tb_controller)
+add wave *
+# 36 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'E:/work/controller_cpld/bld/rd1126/src/wave.asdb'.
+# KERNEL: Configuration complete. EFB now in user mode.                 820
+# KERNEL: stopped at time: 1 us
+# 29 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'efb_ufm_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'efb_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_0' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\lscc\diamond\3.2_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELBREAD: Warning: Too few port connections. Region: /tb_controller/TOP_INST/clk_inst
+# ELAB2: Warning: ELAB2_0051 tb_controller.v (61): Length of connection (3) does not match the length of port "adr" (8) on instance "/tb_controller/u0"
+# ELAB2: Warning: ELAB2_0051 wb_master.v (104): Length of connection (32) does not match the length of port "DISABLE_IN" (1) on instance "/tb_controller/u0/delay_ins"
+# ELAB2: Warning: ELAB2_0051 efb_top.v (181): Length of connection (32) does not match the length of port "ufm_page" (11) on instance "/tb_controller/TOP_INST/i_efb_ufm_top/UUT"
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 18271 kB (elbread=4109 elab2=13609 kernel=553 sdf=0)
+# KERNEL: ASDB file was created in location E:\work\controller_cpld\bld\rd1126\src\wave.asdb
+#  18:05, 2015年2月4日
+#  Simulation has been initialized
+#  Selected Top-Level: tb_controller (tb_controller)
+# Waveform file 'untitled.awc' connected to 'E:/work/controller_cpld/bld/rd1126/src/wave.asdb'.
+run
+# KERNEL: Configuration complete. EFB now in user mode.                 820
+# KERNEL: The I2C write a5
+# KERNEL: URT_INTERCONN_OUT is be
+# KERNEL: URT_KEY_DISABLE_OUT is 22
+# RUNTIME: Info: RUNTIME_0070 tb_controller.v (140): $stop called.
+# KERNEL: Time: 2010220 ns,  Iteration: 0,  Instance: /tb_controller,  Process: @INITIAL#116_3@.
+# KERNEL: stopped at delta: 0 at time 2010220 ns.
+# 41 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'efb_ufm_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'efb_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_0' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\lscc\diamond\3.2_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELBREAD: Warning: Too few port connections. Region: /tb_controller/TOP_INST/clk_inst
+# ELAB2: Warning: ELAB2_0051 tb_controller.v (61): Length of connection (3) does not match the length of port "adr" (8) on instance "/tb_controller/u0"
+# ELAB2: Warning: ELAB2_0051 wb_master.v (104): Length of connection (32) does not match the length of port "DISABLE_IN" (1) on instance "/tb_controller/u0/delay_ins"
+# ELAB2: Warning: ELAB2_0051 efb_top.v (181): Length of connection (32) does not match the length of port "ufm_page" (11) on instance "/tb_controller/TOP_INST/i_efb_ufm_top/UUT"
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 18271 kB (elbread=4109 elab2=13609 kernel=553 sdf=0)
+# KERNEL: ASDB file was created in location E:\work\controller_cpld\bld\rd1126\src\wave.asdb
+#  18:08, 2015年2月4日
+#  Simulation has been initialized
+#  Selected Top-Level: tb_controller (tb_controller)
+# Waveform file 'untitled.awc' connected to 'E:/work/controller_cpld/bld/rd1126/src/wave.asdb'.
+run
+# KERNEL: Configuration complete. EFB now in user mode.                 820
+# KERNEL: The I2C write a5
+# KERNEL: URT_INTERCONN_OUT is be
+# KERNEL: URT_KEY_DISABLE_OUT is 22
+# RUNTIME: Info: RUNTIME_0070 tb_controller.v (140): $stop called.
+# KERNEL: Time: 2010220 ns,  Iteration: 0,  Instance: /tb_controller,  Process: @INITIAL#116_3@.
+# KERNEL: stopped at delta: 0 at time 2010220 ns.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'efb_ufm_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'efb_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_0' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\lscc\diamond\3.2_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELBREAD: Warning: Too few port connections. Region: /tb_controller/TOP_INST/clk_inst
+# ELAB2: Warning: ELAB2_0051 tb_controller.v (61): Length of connection (3) does not match the length of port "adr" (8) on instance "/tb_controller/u0"
+# ELAB2: Warning: ELAB2_0051 wb_master.v (104): Length of connection (32) does not match the length of port "DISABLE_IN" (1) on instance "/tb_controller/u0/delay_ins"
+# ELAB2: Warning: ELAB2_0051 efb_top.v (181): Length of connection (32) does not match the length of port "ufm_page" (11) on instance "/tb_controller/TOP_INST/i_efb_ufm_top/UUT"
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 18271 kB (elbread=4109 elab2=13609 kernel=553 sdf=0)
+# KERNEL: ASDB file was created in location E:\work\controller_cpld\bld\rd1126\src\wave.asdb
+#  18:12, 2015年2月4日
+#  Simulation has been initialized
+#  Selected Top-Level: tb_controller (tb_controller)
+# Waveform file 'untitled.awc' connected to 'E:/work/controller_cpld/bld/rd1126/src/wave.asdb'.
+run
+alog -dbg -sve   -work work $dsn/../../sim/tb_controller.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module wb_master found in current working library.
+# Info: VCP2113 Module DELAY found in current working library.
+# Info: VCP2113 Module i2c_master_wb_top found in current working library.
+# Info: VCP2113 Module i2c_master_byte_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_bit_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Info: VCP2113 Module efb_ufm_top found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module DELAY found in current working library.
+# Info: VCP2113 Module i2c_master_byte_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_bit_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Info: VCP2113 Module efb_ufm_top found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 ../sim/tb_controller.v : (105, 1): Some unconnected ports remain at instance: TOP_INST. Module TOP has unconnected  port(s) : LED.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb_controller.
+# $root top modules: tb_controller.
+# Compile success 0 Errors 1 Warnings  Analysis time: 1[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'efb_ufm_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'efb_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_0' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\lscc\diamond\3.2_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELBREAD: Warning: Too few port connections. Region: /tb_controller/TOP_INST/clk_inst
+# ELAB2: Warning: ELAB2_0051 tb_controller.v (61): Length of connection (3) does not match the length of port "adr" (8) on instance "/tb_controller/u0"
+# ELAB2: Warning: ELAB2_0051 wb_master.v (104): Length of connection (32) does not match the length of port "DISABLE_IN" (1) on instance "/tb_controller/u0/delay_ins"
+# ELAB2: Warning: ELAB2_0051 efb_top.v (181): Length of connection (32) does not match the length of port "ufm_page" (11) on instance "/tb_controller/TOP_INST/i_efb_ufm_top/UUT"
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 18271 kB (elbread=4109 elab2=13609 kernel=553 sdf=0)
+# KERNEL: ASDB file was created in location E:\work\controller_cpld\bld\rd1126\src\wave.asdb
+#  18:12, 2015年2月4日
+#  Simulation has been initialized
+#  Selected Top-Level: tb_controller (tb_controller)
+# Waveform file 'untitled.awc' connected to 'E:/work/controller_cpld/bld/rd1126/src/wave.asdb'.
+run
+# KERNEL: Configuration complete. EFB now in user mode.                 820
+# KERNEL: The I2C write a5 and 55
+# KERNEL: URT_INTERCONN_OUT is d5
+# KERNEL: URT_KEY_DISABLE_OUT is c0
+# RUNTIME: Info: RUNTIME_0070 tb_controller.v (140): $stop called.
+# KERNEL: Time: 2192020 ns,  Iteration: 0,  Instance: /tb_controller,  Process: @INITIAL#116_3@.
+# KERNEL: stopped at delta: 0 at time 2192020 ns.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'efb_ufm_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'efb_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_0' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\lscc\diamond\3.2_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELBREAD: Warning: Too few port connections. Region: /tb_controller/TOP_INST/clk_inst
+# ELAB2: Warning: ELAB2_0051 tb_controller.v (61): Length of connection (3) does not match the length of port "adr" (8) on instance "/tb_controller/u0"
+# ELAB2: Warning: ELAB2_0051 wb_master.v (104): Length of connection (32) does not match the length of port "DISABLE_IN" (1) on instance "/tb_controller/u0/delay_ins"
+# ELAB2: Warning: ELAB2_0051 efb_top.v (181): Length of connection (32) does not match the length of port "ufm_page" (11) on instance "/tb_controller/TOP_INST/i_efb_ufm_top/UUT"
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 18271 kB (elbread=4109 elab2=13609 kernel=553 sdf=0)
+# KERNEL: ASDB file was created in location E:\work\controller_cpld\bld\rd1126\src\wave.asdb
+#  19:05, 2015年2月4日
+#  Simulation has been initialized
+#  Selected Top-Level: tb_controller (tb_controller)
+# Waveform file 'untitled.awc' connected to 'E:/work/controller_cpld/bld/rd1126/src/wave.asdb'.
+run
+alog -dbg -sve   -work work $dsn/../../sim/tb_controller.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module wb_master found in current working library.
+# Info: VCP2113 Module DELAY found in current working library.
+# Info: VCP2113 Module i2c_master_wb_top found in current working library.
+# Info: VCP2113 Module i2c_master_byte_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_bit_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Info: VCP2113 Module TOP found in current working library.
+# Info: VCP2113 Module efb_ufm_top found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module DELAY found in current working library.
+# Info: VCP2113 Module i2c_master_byte_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_bit_ctrl found in current working library.
+# Info: VCP2113 Module i2c_master_registers found in current working library.
+# Info: VCP2113 Module efb_ufm_top found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module I2C found in current working library.
+# Info: VCP2113 Module GPIO found in current working library.
+# Info: VCP2113 Module HEADER found in current working library.
+# Info: VCP2113 Module UFM_WB found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Info: VCP2113 Module EFB_UFM found in current working library.
+# Info: VCP2113 Module USR_MEM found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 ../sim/tb_controller.v : (105, 1): Some unconnected ports remain at instance: TOP_INST. Module TOP has unconnected  port(s) : LED.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb_controller.
+# $root top modules: tb_controller.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'efb_ufm_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'efb_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_0' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'spare_gate_efb_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\lscc\diamond\3.2_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELBREAD: Warning: Too few port connections. Region: /tb_controller/TOP_INST/clk_inst
+# ELAB2: Warning: ELAB2_0051 tb_controller.v (61): Length of connection (3) does not match the length of port "adr" (8) on instance "/tb_controller/u0"
+# ELAB2: Warning: ELAB2_0051 wb_master.v (104): Length of connection (32) does not match the length of port "DISABLE_IN" (1) on instance "/tb_controller/u0/delay_ins"
+# ELAB2: Warning: ELAB2_0051 efb_top.v (181): Length of connection (32) does not match the length of port "ufm_page" (11) on instance "/tb_controller/TOP_INST/i_efb_ufm_top/UUT"
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 18267 kB (elbread=4109 elab2=13606 kernel=552 sdf=0)
+# KERNEL: ASDB file was created in location E:\work\controller_cpld\bld\rd1126\src\wave.asdb
+#  19:05, 2015年2月4日
+#  Simulation has been initialized
+#  Selected Top-Level: tb_controller (tb_controller)
+# Waveform file 'untitled.awc' connected to 'E:/work/controller_cpld/bld/rd1126/src/wave.asdb'.
+run
+# KERNEL: Configuration complete. EFB now in user mode.                 820
+# KERNEL: The I2C write a5 and 55
+# KERNEL: The I2C write 05
+# KERNEL: The I2C received be
+# RUNTIME: Info: RUNTIME_0070 tb_controller.v (143): $stop called.
+# KERNEL: Time: 1687460 ns,  Iteration: 2,  Instance: /tb_controller,  Process: @INITIAL#116_1@.
+# KERNEL: stopped at delta: 2 at time 1687460 ns.
+#  Simulation has been stopped

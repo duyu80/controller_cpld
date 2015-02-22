@@ -1,0 +1,16 @@
+.\..\..\src\HEADER.v
+.\..\..\src\GPIO.v
+.\..\..\src\I2C.v
+.\..\..\ip\USR_MEM.v
+.\..\..\ip\EFB_UFM.v
+.\..\..\src\UFM_WB_top.v
+.\..\..\src\TOP.v
+.\..\..\sim\i2c_master_registers.v
+.\..\..\sim\i2c_master_bit_ctrl.v
+.\..\..\sim\i2c_master_byte_ctrl.v
+.\..\..\sim\i2c_master_wb_top.v
+.\..\..\sim\DELAY.v
+.\..\..\sim\wb_master.v
+.\..\..\sim\tb_controller.v
+.\..\..\src\efb_define_def.v
+.\..\..\sim\i2c_master_defines.v

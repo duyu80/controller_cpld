@@ -1,0 +1,56 @@
+timestamp=1422110755993
+
+[$root]
+A/$root=22|""|0|1*110319
+BinI32/$root=3*89919
+Version=9.3.2744.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[EFB_UFM]
+A/EFB_UFM=22|./../../../ip/EFB_UFM.v|8|1*120910
+BinI32/EFB_UFM=3*90177
+R=./../../../ip/EFB_UFM.v|8
+Version=9.3.2744.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[UFM_WB]
+A/UFM_WB=22|./../../../src/UFM_WB_top.v|48|1*129560
+BinI32/UFM_WB=3*90307
+R=./../../../src/UFM_WB_top.v|48
+Version=9.3.2744.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[UFM_WB_tb]
+A/UFM_WB_tb=22|./../../../sim/UFM_WB_TB.v|45|1*138361
+BinI32/UFM_WB_tb=3*106981
+R=./../../../sim/UFM_WB_TB.v|45
+Version=9.3.2744.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[USR_MEM]
+A/USR_MEM=22|./../../../ip/USR_MEM.v|8|1*110709
+BinI32/USR_MEM=3*90047
+R=./../../../ip/USR_MEM.v|8
+Version=9.3.2744.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[~A]
+E:/work/controller_cpld/ip/EFB_UFM.v=0*3762*5839
+E:/work/controller_cpld/ip/USR_MEM.v=0*863*2524
+E:/work/controller_cpld/sim/UFM_WB_TB.v=0*13958*15702
+E:/work/controller_cpld/src/UFM_WB_top.v=0*7151*13104
+E:/work/controller_cpld/src/efb_define_def.v=0*16388*16712
+LastVerilogToplevel=UFM_WB_tb
+ModifyID=265
+Version=73
+e:/work/controller_cpld/ip/USR_MEM.v_EFB_UFM.v_UFM_WB_top.v_UFM_WB_TB.v_efb_define_def.v=0*56141*66559
+e:/work/controller_cpld/sim/UFM_WB_TB.v=0*51565*53293
+e:/work/controller_cpld/src/UFM_WB_top.v=0*18048*24017
+
+[~MFT]
+0=51|0work.mgf|66559|21974
+1=50|1work.mgf|138361|110319
+3=50|3work.mgf|106981|89919
+
+[~U]
+$root=12|0*53765|
+EFB_UFM=12|0*54660|
+UFM_WB=12|0*55231|
+UFM_WB_tb=12|0*55928||0x10
+USR_MEM=12|0*53979|
+

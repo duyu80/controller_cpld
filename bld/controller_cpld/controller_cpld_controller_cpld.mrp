@@ -1,0 +1,606 @@
+             Lattice Mapping Report File for Design Module 'TOP'
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-1200ZE -t CSBGA132 -s 2 -oc Commercial
+     controller_cpld_controller_cpld.ngd -o
+     controller_cpld_controller_cpld_map.ncd -pr
+     controller_cpld_controller_cpld.prf -mp controller_cpld_controller_cpld.mrp
+     -lpf E:/work/controller_cpld/bld/controller_cpld/controller_cpld_controller
+     _cpld_synplify.lpf -lpf E:/work/controller_cpld/bld/controller_cpld.lpf -c
+     0 -gui
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-1200ZECSBGA132
+Target Performance:   2
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.2.0.134
+Mapped on:  02/04/15  23:37:53
+
+Design Summary
+--------------
+
+   Number of registers:    339 out of  1595 (21%)
+      PFU registers:          337 out of  1280 (26%)
+      PIO registers:            2 out of   315 (1%)
+   Number of SLICEs:       276 out of   640 (43%)
+      SLICEs as Logic/ROM:    276 out of   640 (43%)
+      SLICEs as RAM:            0 out of   480 (0%)
+      SLICEs as Carry:         28 out of   640 (4%)
+   Number of LUT4s:        550 out of  1280 (43%)
+      Number of logic LUTs:      494
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:     28 (56 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 6 + 4(JTAG) out of 105 (10%)
+   Number of block RAMs:  1 out of 7 (14%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       Yes
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 1 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  3
+     Net SYSCLK: 184 loads, 180 rising, 4 falling (Driver: clk_inst )
+
+                                    Page 1
+
+
+
+
+Design:  TOP                                           Date:  02/04/15  23:37:53
+
+Design Summary (cont)
+---------------------
+     Net I2C_INST/N_36_i: 4 loads, 4 rising, 0 falling (Driver:
+     I2C_INST/CNT8_RNIR9LQ )
+     Net i_efb_ufm_top/UUT/inst1/i2c1_scli: 1 loads, 1 rising, 0 falling
+     (Driver: PIO i_efb_ufm_top/UUT/inst1/BB1_scl_B )
+   Number of Clock Enables:  41
+     Net RESET_N_c: 2 loads, 2 LSLICEs
+     Net I2C_INST/SDA_OE_i_RNO: 1 loads, 1 LSLICEs
+     Net I2C_INST/SCL_D2_RNIQG2U: 4 loads, 4 LSLICEs
+     Net I2C_INST/un9_LOC_i: 5 loads, 5 LSLICEs
+     Net I2C_INST/un7_SHIFT_DIN_i: 4 loads, 4 LSLICEs
+     Net I2C_INST/SCL_NCLK: 1 loads, 1 LSLICEs
+     Net I2C_INST/SCL_PCLKD2: 1 loads, 1 LSLICEs
+     Net I2C_INST/RD_END2: 4 loads, 4 LSLICEs
+     Net I2C_INST/N_21: 1 loads, 1 LSLICEs
+     Net I2C_INST/un1_DOUT_0_a2_0_a3: 4 loads, 4 LSLICEs
+     Net I2C_INST/un7_CNT_i_0_0: 2 loads, 2 LSLICEs
+     Net I2C_INST/un2_RD_WR_0_a2_0_a3: 1 loads, 1 LSLICEs
+     Net N_166_i: 1 loads, 0 LSLICEs
+     Net HEADER_INST/N_93: 2 loads, 2 LSLICEs
+     Net GPIO_INST/N_92: 4 loads, 4 LSLICEs
+     Net GPIO_INST/DOUT_W_i_a2_0_RNI0AGG[0]: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_0_0_a2_RNI43BE1_0: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_1_0_a2_0_a17: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_0_0_a2_RNI43BE1: 4 loads, 4 LSLICEs
+     Net GPIO_INST/DOUT_W_i_a2_8_RNI829P[0]: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_0_0_a2_RNI5PVN1: 4 loads, 4 LSLICEs
+     Net GPIO_INST/DOUT_W_i_a2_3_RNI3JPJ[0]: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_2_0_a17: 4 loads, 4 LSLICEs
+     Net GPIO_INST/DOUT_W_i_a2_9_RNI95CA[0]: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_F_0_a2_0_a17: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_E_0_a2_0_a17: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_B_0_a2_1_a17: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_A_0_a2_2_a17: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_9_0_a2_0_a17: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_7_0_a2_0_a17: 4 loads, 4 LSLICEs
+     Net GPIO_INST/un1_GPO_3_0_a17: 4 loads, 4 LSLICEs
+     Net i_efb_ufm_top/un262_GO_i: 1 loads, 1 LSLICEs
+     Net i_efb_ufm_top/cnte: 4 loads, 4 LSLICEs
+     Net i_efb_ufm_top/UUT/sm_ce: 2 loads, 0 LSLICEs
+     Net i_efb_ufm_top/mem_ce: 2 loads, 0 LSLICEs
+     Net i_efb_ufm_top/UUT/un100_0: 1 loads, 1 LSLICEs
+     Net i_efb_ufm_top/UUT/n_data_frm_ufm_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net i_efb_ufm_top/UUT/sm_addre: 2 loads, 2 LSLICEs
+     Net i_efb_ufm_top/UUT/un1_n_wb_dat_i223_3_0: 1 loads, 1 LSLICEs
+     Net i_efb_ufm_top/rd_sm_q[3]: 4 loads, 4 LSLICEs
+     Net i_efb_ufm_top/rd_sm_q[4]: 4 loads, 4 LSLICEs
+   Number of local set/reset loads for net RESET_N_c merged into GSR:  253
+   Number of LSRs:  2
+     Net RESET_N_c: 26 loads, 23 LSLICEs
+     Net i_efb_ufm_top/rd_sm_qs: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net i_efb_ufm_top/UUT/c_state[0]: 60 loads
+     Net i_efb_ufm_top/UUT/c_state[2]: 56 loads
+     Net i_efb_ufm_top/UUT/c_state[3]: 55 loads
+     Net I2C_INST.LOC[2]: 52 loads
+
+                                    Page 2
+
+
+
+
+Design:  TOP                                           Date:  02/04/15  23:37:53
+
+Design Summary (cont)
+---------------------
+     Net I2C_INST.LOC[3]: 52 loads
+     Net i_efb_ufm_top/UUT/c_state[1]: 52 loads
+     Net i_efb_ufm_top/UUT/c_state[4]: 49 loads
+     Net RESET_N_c: 46 loads
+     Net i_efb_ufm_top/UUT/c_state[5]: 41 loads
+     Net RD_WR: 27 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Using local reset signal 'RESET_N_c' to infer global GSR net.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| SDA                 | BIDIR     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| LED                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| RESET_N             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| i_efb_ufm_top/UUT/inst1/BB1_sda_B| BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| i_efb_ufm_top/UUT/inst1/BB1_scl_B| BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SCL                 | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block i_efb_ufm_top/VCC undriven or does not drive anything - clipped.
+Block i_efb_ufm_top/UUT/VCC undriven or does not drive anything - clipped.
+Block GPIO_INST/VCC undriven or does not drive anything - clipped.
+Block GPIO_INST/GND undriven or does not drive anything - clipped.
+Block HEADER_INST/GND undriven or does not drive anything - clipped.
+Block HEADER_INST/VCC undriven or does not drive anything - clipped.
+Signal I2C_INST/CN was merged into signal SYSCLK
+Signal GND undriven or does not drive anything - clipped.
+Signal i_efb_ufm_top/GND undriven or does not drive anything - clipped.
+Signal i_efb_ufm_top/UUT/GND undriven or does not drive anything - clipped.
+Signal i_efb_ufm_top/UUT/inst1/VCC undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/GND undriven or does not drive anything -
+     clipped.
+
+                                    Page 3
+
+
+
+
+Design:  TOP                                           Date:  02/04/15  23:37:53
+
+Removed logic (cont)
+--------------------
+Signal i_efb_ufm_top/UUT/inst2/VCC undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst2/GND undriven or does not drive anything -
+     clipped.
+Signal I2C_INST/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal cnt_cry_0_COUT[19] undriven or does not drive anything - clipped.
+Signal SEDSTDBY undriven or does not drive anything - clipped.
+Signal i_efb_ufm_top/cnt_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/N_1 undriven or does not drive anything - clipped.
+Signal i_efb_ufm_top/cnt_s_0_S1[5] undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/cnt_s_0_COUT[5] undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/un1_count_5_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal i_efb_ufm_top/UUT/un1_count_5_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal i_efb_ufm_top/UUT/N_2 undriven or does not drive anything - clipped.
+Signal i_efb_ufm_top/UUT/un1_count_5_cry_3_0_COUT undriven or does not drive
+     anything - clipped.
+Signal i_efb_ufm_top/UUT/inst1/CFGSTDBY undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/CFGWAKE undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/wbc_ufm_irq undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/TCOC undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/TCINT undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIIRQO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPICSNEN undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMCSN7 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMCSN6 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMCSN5 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMCSN4 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMCSN3 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMCSN2 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMCSN1 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMCSN0 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMOSIEN undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMOSIO undriven or does not drive anything -
+     clipped.
+
+                                    Page 4
+
+
+
+
+Design:  TOP                                           Date:  02/04/15  23:37:53
+
+Removed logic (cont)
+--------------------
+Signal i_efb_ufm_top/UUT/inst1/SPIMISOEN undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPIMISOO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPISCKEN undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/SPISCKO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/I2C2IRQO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/i2c1_irqo undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/I2C2SDAOEN undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/I2C2SDAO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/I2C2SCLOEN undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/I2C2SCLO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLDATO0 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLDATO1 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLDATO2 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLDATO3 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLDATO4 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLDATO5 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLDATO6 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLDATO7 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLADRO0 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLADRO1 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLADRO2 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLADRO3 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLADRO4 undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLWEO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLL1STBO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLL0STBO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLRSTO undriven or does not drive anything -
+     clipped.
+Signal i_efb_ufm_top/UUT/inst1/PLLCLKO undriven or does not drive anything -
+     clipped.
+
+                                    Page 5
+
+
+
+
+Design:  TOP                                           Date:  02/04/15  23:37:53
+
+Removed logic (cont)
+--------------------
+Signal i_efb_ufm_top/UUT/inst2/USR_MEM_0_0_0_0_DOB8 undriven or does not drive
+     anything - clipped.
+Signal i_efb_ufm_top/UUT/inst2/USR_MEM_0_0_0_0_DOA8 undriven or does not drive
+     anything - clipped.
+Signal I2C_INST/LOC_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal I2C_INST/N_1 undriven or does not drive anything - clipped.
+Signal I2C_INST/LOC_s_0_S1[7] undriven or does not drive anything - clipped.
+Signal I2C_INST/LOC_s_0_COUT[7] undriven or does not drive anything - clipped.
+Signal I2C_INST/un1_REG_DIN_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I2C_INST/un1_REG_DIN_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal I2C_INST/N_2 undriven or does not drive anything - clipped.
+Signal I2C_INST/un1_REG_DIN_1_s_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal I2C_INST/un1_REG_DIN_1_s_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal cnt_cry_0_S0_0[0] undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Block I2C_INST/REG_DIN_7_.CN was optimized away.
+Block GND was optimized away.
+Block i_efb_ufm_top/GND was optimized away.
+Block i_efb_ufm_top/UUT/GND was optimized away.
+Block i_efb_ufm_top/UUT/inst1/VCC was optimized away.
+Block i_efb_ufm_top/UUT/inst1/GND was optimized away.
+Block i_efb_ufm_top/UUT/inst2/VCC was optimized away.
+Block i_efb_ufm_top/UUT/inst2/GND was optimized away.
+Block I2C_INST/GND was optimized away.
+
+Memory Usage
+------------
+
+/i_efb_ufm_top/UUT/inst2:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR USR_MEM_0_0_0_0:  TYPE= DP8KC,  Width_A= 8,  Width_B= 8,
+         Depth_A= 32,  Depth_B= 4,  REGMODE_A= NOREG,  REGMODE_B= NOREG,
+         RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,
+         MEM_LPC_FILE= USR_MEM.lpc
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                clk_inst
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     SYSCLK
+  OSC Nominal Frequency (MHz):                      2.08
+
+
+
+
+                                    Page 6
+
+
+
+
+Design:  TOP                                           Date:  02/04/15  23:37:53
+
+Embedded Functional Block Connection Summary:
+---------------------------------------------
+
+   Desired WISHBONE clock frequency: 2.1 MHz
+   Clock source:                     SYSCLK
+   Reset source:                     RESET_N_c
+   Functions mode:
+      I2C #1 (Primary) Function:     ENABLED
+      I2C #2 (Secondary) Function:   DISABLED
+      SPI Function:                  DISABLED
+      Timer/Counter Function:        DISABLED
+      Timer/Counter Mode:            WB
+      UFM Connection:                ENABLED
+      PLL0 Connection:               DISABLED
+      PLL1 Connection:               DISABLED
+   I2C Function Summary:
+   --------------------
+      I2C Component:          PRIMARY
+      I2C Addressing:         7BIT
+      I2C Performance:        100kHz
+      Slave Address:          0b0001001
+      General Call:           DISABLED
+      I2C Wake Up:            DISABLED
+      I2C Component:          UFM/Configuration
+      I2C Addressing:         7BIT
+      I2C Performance:        100kHz
+      Slave Address:          0b0001000
+   SPI Function Summary:
+   --------------------
+      None
+   Timer/Counter Function Summary:
+   ------------------------------
+      None
+   UFM Function Summary:
+   --------------------
+      UFM Utilization:        General Purpose Flash Memory
+      Initialized UFM Pages:  511 Pages (511*128 Bits)
+      Available General
+      Purpose Flash Memory:   511 Pages (511*128 Bits)
+
+      EBR Blocks with Unique
+      Initialization Data:    0
+
+      WID		EBR Instance
+      ---		------------
+      0b0000000001	i_efb_ufm_top/UUT/inst2/USR_MEM_0_0_0_0
+
+ASIC Components
+---------------
+
+Instance Name: i_efb_ufm_top/UUT/inst2/USR_MEM_0_0_0_0
+         Type: DP8KC
+Instance Name: i_efb_ufm_top/UUT/inst1/EFBInst_0
+         Type: EFB
+Instance Name: clk_inst
+         Type: OSCH
+
+
+
+
+                                    Page 7
+
+
+
+
+Design:  TOP                                           Date:  02/04/15  23:37:53
+
+GSR Usage
+---------
+
+GSR Component:
+   The local reset signal 'RESET_N_c' of the design has been inferred as Global
+        Set Reset (GSR). The reset signal used for GSR control is 'RESET_N_c'.
+
+GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+
+Components on inferred reset domain with GSR Property disabled
+--------------------------------------------------------------
+
+These components have the GSR property set to DISABLED and are on the inferred
+     reset domain. The components will respond to the reset signal 'RESET_N_c'
+     via the local reset on the component and not the GSR component.
+
+Type and number of components of the type:
+   Register = 43
+   DP8KC = 2, EFB = 1
+
+Type and instance name of component:
+   Register : LED
+   Register : i_efb_ufm_top/GO
+   Register : i_efb_ufm_top/rd_sm_q[1]
+   Register : i_efb_ufm_top/rd_sm_q[2]
+   Register : i_efb_ufm_top/rd_sm_q[3]
+   Register : i_efb_ufm_top/rd_sm_q[4]
+   Register : i_efb_ufm_top/rd_sm_q[5]
+   Register : i_efb_ufm_top/pwr_on_read
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_SET_Q[0]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_SET_Q[1]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_SET_Q[2]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_SET_Q[3]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_SET_Q[4]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_SET_Q[5]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_SET_Q[6]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_SET_Q[7]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_OUT[0]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_OUT[1]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_OUT[2]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_OUT[3]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_OUT[4]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_OUT[5]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_OUT[6]
+   Register : i_efb_ufm_top/URT_KEY_DISABLE_OUT[7]
+   Register : i_efb_ufm_top/URT_INTERCONN_SET_Q[0]
+   Register : i_efb_ufm_top/URT_INTERCONN_SET_Q[1]
+   Register : i_efb_ufm_top/URT_INTERCONN_SET_Q[2]
+   Register : i_efb_ufm_top/URT_INTERCONN_SET_Q[3]
+   Register : i_efb_ufm_top/URT_INTERCONN_SET_Q[4]
+   Register : i_efb_ufm_top/URT_INTERCONN_SET_Q[5]
+   Register : i_efb_ufm_top/URT_INTERCONN_SET_Q[6]
+   Register : i_efb_ufm_top/URT_INTERCONN_SET_Q[7]
+   Register : i_efb_ufm_top/URT_INTERCONN_OUT[0]
+   Register : i_efb_ufm_top/URT_INTERCONN_OUT[1]
+   Register : i_efb_ufm_top/URT_INTERCONN_OUT[2]
+   Register : i_efb_ufm_top/URT_INTERCONN_OUT[3]
+   Register : i_efb_ufm_top/URT_INTERCONN_OUT[4]
+   Register : i_efb_ufm_top/URT_INTERCONN_OUT[5]
+   Register : i_efb_ufm_top/URT_INTERCONN_OUT[6]
+
+                                    Page 8
+
+
+
+
+Design:  TOP                                           Date:  02/04/15  23:37:53
+
+GSR Usage (cont)
+----------------
+   Register : i_efb_ufm_top/URT_INTERCONN_OUT[7]
+   Register : i_efb_ufm_top/BUSY_D
+   Register : I2C_INST/SCL_NCLK
+   Register : I2C_INST/SCL_PCLK
+   DP8KC : i_efb_ufm_top/UUT/inst2/USR_MEM_0_0_0_0
+   DP8KC : i_efb_ufm_top/UUT/inst2/USR_MEM_0_0_0_0
+   EFB : i_efb_ufm_top/UUT/inst1/EFBInst_0
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs
+   Total REAL Time: 0 secs
+   Peak Memory Usage: 49 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 9
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor
+     Corporation,  All rights reserved.

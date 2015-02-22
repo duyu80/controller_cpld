@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/25/2015 19:06:40
+#Project Location: E:/work/controller_cpld/bld; Project name: controller_cpld
+prj_project open "E:/work/controller_cpld/bld/controller_cpld.ldf"
+prj_src add "E:/work/controller_cpld/bld/rd1126/rd1126.spf"
+#Stop recording: 1/25/2015 19:13:58

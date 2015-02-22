@@ -1,0 +1,18 @@
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 341 clock pin(s) of sequential element(s)
+0 instances converted, 341 sequential instances remain driven by gated/generated clocks
+
+========================================================================================================= Gated/Generated Clocks =========================================================================================================
+Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance               Explanation                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clk_inst                  OSCH                   333        I2C_INST_MASTER_RD_NACKio     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       I2C_INST.CNT8_RNIR9LQ     ORCALUT4               8          I2C_INST.CHECKSUM_OUT[0]      No clocks found on inputs                                                                                                     
+==========================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

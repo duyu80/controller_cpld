@@ -1,0 +1,59 @@
+@N|Running in 64-bit mode
+@N: CG364 :"D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH
+@N: CG364 :"D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v":1120:7:1120:9|Synthesizing module VHI
+@N: CG364 :"D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v":1124:7:1124:9|Synthesizing module VLO
+@N: CG364 :"D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v":82:7:82:8|Synthesizing module BB
+@N: CG364 :"D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v":1800:7:1800:9|Synthesizing module EFB
+@N: CG364 :"E:\work\controller_cpld\bld\..\ip\EFB_UFM.v":8:7:8:13|Synthesizing module EFB_UFM
+@N: CG364 :"D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v":1291:7:1291:11|Synthesizing module DP8KC
+@N: CG364 :"E:\work\controller_cpld\bld\..\ip\USR_MEM.v":8:7:8:13|Synthesizing module USR_MEM
+@N: CG364 :"E:\work\controller_cpld\bld\..\src\UFM_WB_top.v":5:7:5:12|Synthesizing module UFM_WB
+@N: CL177 :"E:\work\controller_cpld\bld\..\src\UFM_WB_top.v":154:0:154:5|Sharing sequential element wb_stb_i.
+@N: CG364 :"E:\work\controller_cpld\bld\..\src\efb_top.v":1:7:1:17|Synthesizing module efb_ufm_top
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\efb_top.v":111:13:111:14|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\efb_top.v":123:42:123:44|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\efb_top.v":148:68:148:84|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\efb_top.v":149:68:149:86|Removing redundant assignment
+@N: CG364 :"E:\work\controller_cpld\bld\..\src\I2C.v":18:7:18:9|Synthesizing module I2C
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":191:105:191:107|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":209:82:209:90|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":223:66:223:70|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":224:83:224:88|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":237:116:237:118|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":251:65:251:68|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":252:72:252:82|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":292:208:292:213|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":314:73:314:79|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":333:127:333:136|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":335:44:335:50|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":350:80:350:87|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\I2C.v":351:117:351:130|Removing redundant assignment
+@N: CG364 :"E:\work\controller_cpld\bld\..\src\GPIO.v":10:7:10:10|Synthesizing module GPIO
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":107:40:107:43|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":135:57:135:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":136:57:136:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":137:57:137:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":138:57:138:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":139:57:139:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":140:57:140:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":141:57:141:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":142:57:142:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":143:57:143:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":144:57:144:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":145:57:145:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":146:57:146:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":147:57:147:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":148:57:148:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":149:57:149:61|Removing redundant assignment
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\GPIO.v":150:57:150:61|Removing redundant assignment
+@N: CG364 :"E:\work\controller_cpld\bld\..\src\HEADER.v":15:7:15:12|Synthesizing module HEADER
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\HEADER.v":49:40:49:43|Removing redundant assignment
+@N: CG364 :"E:\work\controller_cpld\bld\..\src\TOP.v":11:7:11:9|Synthesizing module TOP
+@N: CG179 :"E:\work\controller_cpld\bld\..\src\TOP.v":60:37:60:39|Removing redundant assignment
+@N: CL135 :"E:\work\controller_cpld\bld\..\src\I2C.v":178:0:178:5|Found seqShift NEXT_STATE_D2, depth=3, width=1
+@N: CL201 :"E:\work\controller_cpld\bld\..\src\I2C.v":357:0:357:5|Trying to extract state machine for register STATE
+@N: CL201 :"E:\work\controller_cpld\bld\..\src\efb_top.v":86:0:86:5|Trying to extract state machine for register wr_sm_q
+@N: CL201 :"E:\work\controller_cpld\bld\..\src\efb_top.v":86:0:86:5|Trying to extract state machine for register rd_sm_q
+@N: CL177 :"E:\work\controller_cpld\bld\..\src\UFM_WB_top.v":173:1:173:6|Sharing sequential element efb_flag.
+@N: CL201 :"E:\work\controller_cpld\bld\..\src\UFM_WB_top.v":173:1:173:6|Trying to extract state machine for register c_state
+

@@ -1,0 +1,176 @@
+
+fsm_encoding {15860862} onehot
+
+fsm_state_encoding {15860862} 0000000000000001 {0000001}
+
+fsm_state_encoding {15860862} 0000000000000010 {0000010}
+
+fsm_state_encoding {15860862} 0000000000000100 {0000100}
+
+fsm_state_encoding {15860862} 0000000000001000 {0001000}
+
+fsm_state_encoding {15860862} 0000000000010000 {0010000}
+
+fsm_state_encoding {15860862} 0000000000100000 {0100000}
+
+fsm_state_encoding {15860862} 0000000001000000 {1000000}
+
+fsm_registers {15860862} {wr_sm_q[6]}  {wr_sm_q[5]}  {wr_sm_q[4]}  {wr_sm_q[3]}  {wr_sm_q[2]}  {wr_sm_q[1]}  {wr_sm_q[0]} 
+
+fsm_encoding {15860863} onehot
+
+fsm_state_encoding {15860863} 0000000000000001 {000001}
+
+fsm_state_encoding {15860863} 0000000000000010 {000010}
+
+fsm_state_encoding {15860863} 0000000000000100 {000100}
+
+fsm_state_encoding {15860863} 0000000000001000 {001000}
+
+fsm_state_encoding {15860863} 0000000000010000 {010000}
+
+fsm_state_encoding {15860863} 0000000000100000 {100000}
+
+fsm_registers {15860863} {rd_sm_q[5]}  {rd_sm_q[4]}  {rd_sm_q[3]}  {rd_sm_q[2]}  {rd_sm_q[1]}  {rd_sm_q[0]} 
+
+fsm_encoding {717311734} gray
+
+fsm_state_encoding {717311734} 00000000 {000000}
+
+fsm_state_encoding {717311734} 00000001 {000001}
+
+fsm_state_encoding {717311734} 00000010 {000011}
+
+fsm_state_encoding {717311734} 00000011 {000010}
+
+fsm_state_encoding {717311734} 00000100 {000110}
+
+fsm_state_encoding {717311734} 00000101 {000111}
+
+fsm_state_encoding {717311734} 00000110 {000101}
+
+fsm_state_encoding {717311734} 00000111 {000100}
+
+fsm_state_encoding {717311734} 00001000 {001100}
+
+fsm_state_encoding {717311734} 00001001 {001101}
+
+fsm_state_encoding {717311734} 00001010 {001111}
+
+fsm_state_encoding {717311734} 00001011 {001110}
+
+fsm_state_encoding {717311734} 00001100 {001010}
+
+fsm_state_encoding {717311734} 00001101 {001011}
+
+fsm_state_encoding {717311734} 00001110 {001001}
+
+fsm_state_encoding {717311734} 00001111 {001000}
+
+fsm_state_encoding {717311734} 00010000 {011000}
+
+fsm_state_encoding {717311734} 00010001 {011001}
+
+fsm_state_encoding {717311734} 00010010 {011011}
+
+fsm_state_encoding {717311734} 00010011 {011010}
+
+fsm_state_encoding {717311734} 00010100 {011110}
+
+fsm_state_encoding {717311734} 00010101 {011111}
+
+fsm_state_encoding {717311734} 00010110 {011101}
+
+fsm_state_encoding {717311734} 00010111 {011100}
+
+fsm_state_encoding {717311734} 00011000 {010100}
+
+fsm_state_encoding {717311734} 00011001 {010101}
+
+fsm_state_encoding {717311734} 00011010 {010111}
+
+fsm_state_encoding {717311734} 00011011 {010110}
+
+fsm_state_encoding {717311734} 00011100 {010010}
+
+fsm_state_encoding {717311734} 00011101 {010011}
+
+fsm_state_encoding {717311734} 00011110 {010001}
+
+fsm_state_encoding {717311734} 00011111 {010000}
+
+fsm_state_encoding {717311734} 00100000 {110000}
+
+fsm_state_encoding {717311734} 00100001 {110001}
+
+fsm_state_encoding {717311734} 00100010 {110011}
+
+fsm_state_encoding {717311734} 00100011 {110010}
+
+fsm_state_encoding {717311734} 00100100 {110110}
+
+fsm_state_encoding {717311734} 00100101 {110111}
+
+fsm_state_encoding {717311734} 00100110 {110101}
+
+fsm_state_encoding {717311734} 00100111 {110100}
+
+fsm_state_encoding {717311734} 00101000 {111100}
+
+fsm_state_encoding {717311734} 00101001 {111101}
+
+fsm_state_encoding {717311734} 00101010 {111111}
+
+fsm_state_encoding {717311734} 00101011 {111110}
+
+fsm_state_encoding {717311734} 00101100 {111010}
+
+fsm_state_encoding {717311734} 00101101 {111011}
+
+fsm_state_encoding {717311734} 00101110 {111001}
+
+fsm_state_encoding {717311734} 00101111 {111000}
+
+fsm_state_encoding {717311734} 00110000 {101000}
+
+fsm_state_encoding {717311734} 00110001 {101001}
+
+fsm_state_encoding {717311734} 00110010 {101011}
+
+fsm_state_encoding {717311734} 00110011 {101010}
+
+fsm_state_encoding {717311734} 00110100 {101110}
+
+fsm_state_encoding {717311734} 00110101 {101111}
+
+fsm_state_encoding {717311734} 00110110 {101101}
+
+fsm_state_encoding {717311734} 00110111 {101100}
+
+fsm_state_encoding {717311734} 00111000 {100100}
+
+fsm_state_encoding {717311734} 00111001 {100101}
+
+fsm_state_encoding {717311734} 00111010 {100111}
+
+fsm_state_encoding {717311734} 00111011 {100110}
+
+fsm_state_encoding {717311734} 00111100 {100010}
+
+fsm_state_encoding {717311734} 00111101 {100011}
+
+fsm_registers {717311734} {c_state[5]}  {c_state[4]}  {c_state[3]}  {c_state[2]}  {c_state[1]}  {c_state[0]} 
+
+fsm_encoding {1235703571} onehot
+
+fsm_state_encoding {1235703571} CASE_I2C_IDLE {00001}
+
+fsm_state_encoding {1235703571} CASE_I2C_ADD {00010}
+
+fsm_state_encoding {1235703571} CASE_I2C_LOC {00100}
+
+fsm_state_encoding {1235703571} CASE_I2C_DATA1 {01000}
+
+fsm_state_encoding {1235703571} CASE_I2C_END {10000}
+
+fsm_registers {1235703571} {STATE[4]}  {STATE[3]}  {STATE[2]}  {STATE[1]}  {STATE[0]} 

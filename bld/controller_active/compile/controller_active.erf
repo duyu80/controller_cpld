@@ -1,0 +1,59 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module wb_master found in current working library."
+MESSAGE_SP VCP2113 "Module DELAY found in current working library."
+MESSAGE_SP VCP2113 "Module i2c_master_wb_top found in current working library."
+MESSAGE_SP VCP2113 "Module i2c_master_byte_ctrl found in current working library."
+MESSAGE_SP VCP2113 "Module i2c_master_bit_ctrl found in current working library."
+MESSAGE_SP VCP2113 "Module i2c_master_registers found in current working library."
+MESSAGE_SP VCP2113 "Module TOP found in current working library."
+MESSAGE_SP VCP2113 "Module UFM_WB found in current working library."
+MESSAGE_SP VCP2113 "Module I2C found in current working library."
+MESSAGE_SP VCP2113 "Module GPIO found in current working library."
+MESSAGE_SP VCP2113 "Module HEADER found in current working library."
+MESSAGE_SP VCP2113 "Module DELAY found in current working library."
+MESSAGE_SP VCP2113 "Module i2c_master_byte_ctrl found in current working library."
+MESSAGE_SP VCP2113 "Module i2c_master_bit_ctrl found in current working library."
+MESSAGE_SP VCP2113 "Module i2c_master_registers found in current working library."
+MESSAGE_SP VCP2113 "Module UFM_WB found in current working library."
+MESSAGE_SP VCP2113 "Module EFB_UFM found in current working library."
+MESSAGE_SP VCP2113 "Module USR_MEM found in current working library."
+MESSAGE_SP VCP2113 "Module I2C found in current working library."
+MESSAGE_SP VCP2113 "Module GPIO found in current working library."
+MESSAGE_SP VCP2113 "Module HEADER found in current working library."
+MESSAGE_SP VCP2113 "Module EFB_UFM found in current working library."
+MESSAGE_SP VCP2113 "Module USR_MEM found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 62
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
+UPDATEPROGRESS 84
+UPDATEPROGRESS 85
+UPDATEPROGRESS 86
+UPDATEPROGRESS 87
+UPDATEPROGRESS 88
+UPDATEPROGRESS 89
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+UPDATEPROGRESS 92
+UPDATEPROGRESS 93
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+MESSAGE "Unit top modules: tb_controller."
+MESSAGE "$root top modules: tb_controller."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

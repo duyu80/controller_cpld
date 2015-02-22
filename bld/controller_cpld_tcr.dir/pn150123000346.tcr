@@ -1,0 +1,4 @@
+#Start recording tcl command: 1/22/2015 21:02:32
+#Project Location: E:/work/controller_cpld/bld; Project name: controller_cpld
+prj_project open "E:/work/controller_cpld/bld/controller_cpld.ldf"
+#Stop recording: 1/23/2015 00:03:46

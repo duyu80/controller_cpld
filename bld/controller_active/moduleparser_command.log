@@ -1,0 +1,1 @@
+D:/lscc/diamond/3.2_x64/bin/nt64/moduleparser.exe -PROJ controller_active -pf D:/lscc/diamond/3.2_x64/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg D:/lscc/diamond/3.2_x64/cae_library/vhdl_packages/vdbs -lst E:/work/controller_cpld/bld/controller_active/source_files.lst

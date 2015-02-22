@@ -1,0 +1,11 @@
+D:\lscc\diamond\3.2_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  E:\work\controller_cpld\bld\controller_cpld  -part LCMXO2_1200ZE  -package MG132C  -grade -2   -maxfan 1000    -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1  -use_rename_in_edif 1 -Write_declared_clocks_only 1     -summaryfile E:\work\controller_cpld\bld\controller_cpld\synlog\report\controller_cpld_controller_cpld_fpga_mapper.xml -top_level_module  TOP  -flow mapping  -oedif  E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.edi  -freq 1.000  E:\work\controller_cpld\bld\controller_cpld\synwork\controller_cpld_controller_cpld_prem.srd  -devicelib  D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v  -devicelib  D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  E:\work\controller_cpld\bld\controller_cpld\syntmp\controller_cpld_controller_cpld.plg  -osyn  E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srm  -prjdir  E:\work\controller_cpld\bld\controller_cpld\  -prjname  proj_1  -log  E:\work\controller_cpld\bld\controller_cpld\synlog\controller_cpld_controller_cpld_fpga_mapper.srr 
+rc:1 success:1
+E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.edi|o|1423064269|535951
+E:\work\controller_cpld\bld\controller_cpld\synwork\controller_cpld_controller_cpld_prem.srd|i|1423064265|63587
+D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v|i|1397610298|51625
+D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v|i|1397610298|40584
+E:\work\controller_cpld\bld\controller_cpld\syntmp\controller_cpld_controller_cpld.plg|o|1423064270|1437
+E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srm|o|1423064269|116481
+E:\work\controller_cpld\bld\controller_cpld\synlog\controller_cpld_controller_cpld_fpga_mapper.srr|o|1423064270|33613
+D:\lscc\diamond\3.2_x64\synpbase\bin64\m_gen_lattice.exe|i|1397614522|24119808
+D:\lscc\diamond\3.2_x64\synpbase\bin\m_gen_lattice.exe|i|1397611902|20611584

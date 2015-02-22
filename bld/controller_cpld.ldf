@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="controller_cpld" device="LCMXO2-1200ZE-2MG132C" default_implementation="controller_cpld">
+    <Options/>
+    <Implementation title="controller_cpld" dir="controller_cpld" description="controller_cpld" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="TOP" top="TOP"/>
+        <Source name="../src/efb_define_def.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/UFM_WB_top.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../ip/EFB_UFM.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../ip/USR_MEM.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/GPIO.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/I2C.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/TOP.v" type="Verilog" type_short="Verilog">
+            <Options top_module="TOP"/>
+        </Source>
+        <Source name="../src/HEADER.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/efb_top.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="controller_active/controller_active.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="controller_cpld.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="controller_cpld/controller_cpld.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="controller_modelsim/controller_modelsim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="rd1126/rd1126.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="controller_cpld1.sty"/>
+</BaliProject>

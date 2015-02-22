@@ -1,0 +1,5 @@
+i<>.\..\..\ip\USR_MEM.v
+i<>.\..\..\ip\EFB_UFM.v
+i<>.\..\..\src\UFM_WB_top.v
+i<>.\..\..\sim\UFM_WB_TB.v
+i<>.\..\..\src\efb_define_def.v

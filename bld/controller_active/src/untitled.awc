@@ -1,0 +1,99 @@
+<config>
+    <version>
+        2.0
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="LOCAL___e68cc454002c4b061c00">untitled.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+                AAAAbwA/wAAAAAAQCRsxFwEDDAAAAQd5Cxk3AQsAABkPAfsJFzkLAEABBwEDgQEXeQsA9BkPOQthAQAQ        oQAAEMEBFwAA8RMBPwkbCXcABBkLOQ8ZC/kDUAIFCTsJBxwMAQNYCQ1/AQcJFwEDHAAB9QK7AAAQEQAA
+|
+        </signallist>
+    </signallists>
+    <propertybases>
+        <propertybase id="0">
+            <propclass name="radix">
+                <property first="268435630" last="268435630">
+                32
+                </property>
+            </propclass>
+            <propclass name="mode">
+            </propclass>
+            <propclass name="notation">
+                <property first="268435630" last="268435630">
+                1
+                </property>
+            </propclass>
+            <propclass name="reverse">
+            </propclass>
+            <propclass name="bold">
+            </propclass>
+            <propclass name="row_height">
+            </propclass>
+            <propclass name="color">
+            </propclass>
+            <propclass name="compared">
+            </propclass>
+            <propclass name="analog_bounds">
+                <property first="268435630" last="268435630">
+                [-1,1]
+                </property>
+            </propclass>
+            <propclass name="fixedpoint">
+            </propclass>
+            <propclass name="floating_encoding">
+            </propclass>
+            <propclass name="floating_notation">
+            </propclass>
+            <propclass name="floating_precision">
+            </propclass>
+            <propclass name="rounding_method">
+            </propclass>
+            <propclass name="aliasname">
+            </propclass>
+        </propertybase>
+    </propertybases>
+    <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="100777597342" />
+            <pref name="Start Time" value="75815823927" />
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="98281420000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+    <virtualsources>
+        <virtualnamedrows>
+            <virtualnamedrow id="15" name="TOP"/>
+        </virtualnamedrows>
+        <virtualbuses>
+        </virtualbuses>
+        <virtualalias>
+        </virtualalias>
+        <virtualbusalias>
+        </virtualbusalias>
+        <virtualanalogalias>
+        </virtualanalogalias>
+        <virtualanalogbusalias>
+        </virtualanalogbusalias>
+        </virtualsources>
+</config>

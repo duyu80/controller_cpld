@@ -1,0 +1,79 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+controller_active=.\controller_active\controller_active.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+controller_active=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\..\src\HEADER.v=-1
+/..\..\..\src\GPIO.v=-1
+/..\..\..\src\I2C.v=-1
+/..\..\..\ip\USR_MEM.v=-1
+/..\..\..\ip\EFB_UFM.v=-1
+/..\..\..\src\UFM_WB_top.v=-1
+/..\..\..\src\TOP.v=-1
+/..\..\..\sim\i2c_master_registers.v=-1
+/..\..\..\sim\i2c_master_bit_ctrl.v=-1
+/..\..\..\sim\i2c_master_byte_ctrl.v=-1
+/..\..\..\sim\i2c_master_wb_top.v=-1
+/..\..\..\sim\DELAY.v=-1
+/..\..\..\sim\wb_master.v=-1
+/..\..\..\sim\tb_controller.v=-1
+/..\..\..\src\efb_define_def.v=-1
+/..\..\..\sim\i2c_master_defines.v=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+[Files.Data]
+.\..\..\src\HEADER.v=Verilog Source Code
+.\..\..\src\GPIO.v=Verilog Source Code
+.\..\..\src\I2C.v=Verilog Source Code
+.\..\..\ip\USR_MEM.v=Verilog Source Code
+.\..\..\ip\EFB_UFM.v=Verilog Source Code
+.\..\..\src\UFM_WB_top.v=Verilog Source Code
+.\..\..\src\TOP.v=Verilog Source Code
+.\..\..\sim\i2c_master_registers.v=Verilog Source Code
+.\..\..\sim\i2c_master_bit_ctrl.v=Verilog Source Code
+.\..\..\sim\i2c_master_byte_ctrl.v=Verilog Source Code
+.\..\..\sim\i2c_master_wb_top.v=Verilog Source Code
+.\..\..\sim\DELAY.v=Verilog Source Code
+.\..\..\sim\wb_master.v=Verilog Source Code
+.\..\..\sim\tb_controller.v=Verilog Source Code
+.\..\..\src\efb_define_def.v=Verilog Source Code
+.\..\..\sim\i2c_master_defines.v=Verilog Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

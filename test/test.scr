@@ -1,0 +1,239 @@
+main()
+{
+// device info
+addr = 0xc2;
+// test output variables
+//PAGE = "00 00 ";
+//strOutBytes = "02 FE 04 FC 00";
+// display output bytes
+//print(strOutBytes);
+//print("\n");
+// combine page number & output bytes for sending
+//strTemp = string_concatenate(PAGE, strOutBytes);
+// send msg
+//send_message(addr, FALSE, "00", TRUE);
+
+// update progress bar - 33%
+//progress(33);
+// break
+// (needed because EEPROM expects more data to be sent)
+//nCount = 0;
+//do
+//{
+// send 0x00 up to 5 time, until ACK
+//strResult = send_message(nAddr, b10Bit, "00", TRUE);
+//if( ++nCount == 5 )
+//break;
+//}
+//while( string_compare(strResult, "Address byte NAKed") == 0 );
+// update progress bar - 66%
+//progress(66);
+// read back bytes from page 0
+//send_message(nAddr, b10Bit, PAGE, FALSE);
+//strInBytes = receive_message(nAddr, FALSE, 1, TRUE);
+// display input bytes
+//print(strInBytes);
+//print("\n");
+// does output match input??
+//if( !string_compare(strOutBytes, strInBytes) )
+//print("Match!\n\n");
+//else
+//print("Mismatch!\n\n");
+// update progress bar - done!
+//progress(100);
+
+// duyu test
+//Enable UFM
+print("Enable UFM\n");
+send_message(addr, FALSE, "11 04", TRUE);  //cmd = 3'b100;
+send_message(addr, FALSE, "10 01", TRUE);  // go = 1
+pause(100);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+//Erase UFM
+print("Erase UFM\n");
+send_message(addr, FALSE, "11 07", TRUE);  //cmd = 3'b111;
+send_message(addr, FALSE, "10 01", TRUE);  // go = 1
+pause(2000);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( (string_compare(readback, "02") == 0) || (string_compare(readback, "01") == 0));
+
+
+//Eable UFM
+print("Eable UFM\n");
+send_message(addr, FALSE, "11 04", TRUE);  //cmd = 3'b100;
+send_message(addr, FALSE, "10 01", TRUE);  // go = 1
+pause(100);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+
+//Write RAM0
+print("Write RAM0\n");
+//for (i = 0; i < 16; i++)
+//{
+send_message(addr, FALSE, "12 00", TRUE);  //mem_addr[3:0]=0
+pause(100);
+send_message(addr, FALSE, "13 10", TRUE);  //mem_wr_data[7:0]=8'h22
+pause(100);
+send_message(addr, FALSE, "10 06", TRUE);  //mem_ce,mem_we = 2'b11;
+pause(100);
+//}
+send_message(addr, FALSE, "12 01", TRUE);  //mem_addr[3:0]=0
+pause(100);
+send_message(addr, FALSE, "13 77", TRUE);  //mem_wr_data[7:0]=8'h22
+pause(100);
+send_message(addr, FALSE, "10 06", TRUE);  //mem_ce,mem_we = 2'b11;
+pause(100);
+
+	
+//Write UFM0
+print("Write UFM0\n");
+send_message(addr, FALSE, "11 02", TRUE);  //cmd = 3'b010;
+send_message(addr, FALSE, "10 01", TRUE);  //GO = 1'b1;
+pause(100);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+
+
+//Disable UFM
+print("Disable UFM\n");
+send_message(addr, FALSE, "11 05", TRUE);  //cmd = 3'b101;
+send_message(addr, FALSE, "10 01", TRUE);  // go = 1
+pause(100);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+		
+//Read UFM test begin
+//Enable UFM
+print("Enable UFM\n");
+send_message(addr, FALSE, "11 04", TRUE);  //cmd = 3'b100;
+send_message(addr, FALSE, "10 01", TRUE);  // go = 1
+pause(100);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+		
+//Read UFM0
+print("Read UFM0\n");
+send_message(addr, FALSE, "11 00", TRUE);  //cmd = 3'b000;
+send_message(addr, FALSE, "10 01", TRUE);  // go = 1
+pause(100);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+
+//Read back data
+
+print("Read back data0\n");
+send_message(addr, FALSE, "12 00", TRUE);  //mem_addr[3:0]=0
+pause(100);
+send_message(addr, FALSE, "10 04", TRUE);  //mem_ce,mem_we = 2'b10;
+pause(100);
+send_message(addr, FALSE, "06", TRUE);  //read back
+pause(100);
+readback = receive_message(addr, FALSE, 1, TRUE);
+pause(100);
+print(readback);
+print("\n");
+
+print("Read back data1\n");
+send_message(addr, FALSE, "12 01", TRUE);  //mem_addr[3:0]=0
+pause(100);
+send_message(addr, FALSE, "10 04", TRUE);  //mem_ce,mem_we = 2'b10;
+pause(100);
+send_message(addr, FALSE, "06", TRUE);  //read back
+pause(100);
+readback = receive_message(addr, FALSE, 1, TRUE);
+pause(100);
+print(readback);
+print("\n");
+
+
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+
+//check whether cpld is alive
+print("check whether cpld is alivea\n");
+send_message(addr, FALSE, "00", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+
+
+}

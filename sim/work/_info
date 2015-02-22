@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dE:\work\controller_cpld\sim
+!i10d 8192
+!i10e 25
+!i10f 100
+vDELAY
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+31
+IemPo@X6Cmk=Po7AZ^X]Rm1
+Z2 dE:\work\controller_cpld\sim
+w1422148276
+8E:/work/controller_cpld/sim/DELAY.v
+FE:/work/controller_cpld/sim/DELAY.v
+L0 10
+Z3 OL;L;10.2;57
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@d@e@l@a@y
+!s85 0
+!i10b 1
+!s100 _3nT2k9Q07`zz0F0laHCR1
+!s108 1422893039.549000
+!s107 E:/work/controller_cpld/sim/DELAY.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/sim/DELAY.v|
+vEFB_UFM
+R1
+r1
+31
+IfHLImN6eNW^7<TzGaV<^B3
+R2
+Z5 w1422799012
+8E:/work/controller_cpld/ip/EFB_UFM.v
+FE:/work/controller_cpld/ip/EFB_UFM.v
+L0 8
+R3
+R4
+n@e@f@b_@u@f@m
+!s85 0
+!s100 f`CWBLlJajP4JY0hC;RlD3
+!s108 1422893038.062000
+!s107 E:/work/controller_cpld/ip/EFB_UFM.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/ip/EFB_UFM.v|
+!i10b 1
+vefb_ufm_top
+R1
+r1
+31
+IS92HWdgN<e<Yn@9l6`<A10
+R2
+w1422892674
+8E:/work/controller_cpld/src/efb_top.v
+FE:/work/controller_cpld/src/efb_top.v
+L0 1
+R3
+R4
+!s85 0
+!s100 aZBI]UzX@U[<m5]<Xf^oF2
+!s108 1422893038.449000
+!s107 E:/work/controller_cpld/src/efb_top.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/src/efb_top.v|
+!i10b 1
+vGPIO
+R1
+r1
+31
+InSgCPIAzdn;c6k@^G`JZQ3
+R2
+w1422371051
+8E:/work/controller_cpld/src/GPIO.v
+FE:/work/controller_cpld/src/GPIO.v
+L0 10
+R3
+R4
+n@g@p@i@o
+!s85 0
+!s100 ZX=3PnP:5F6:]iQNDeOHP1
+!s108 1422893038.247000
+!s107 E:/work/controller_cpld/src/GPIO.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/src/GPIO.v|
+!i10b 1
+vHEADER
+R1
+r1
+!s85 0
+31
+I<]MG3?a?9Chjo_je9QCzM1
+R2
+w1422891232
+8E:/work/controller_cpld/src/HEADER.v
+FE:/work/controller_cpld/src/HEADER.v
+L0 15
+R3
+R4
+n@h@e@a@d@e@r
+!s100 3V9;zoXaQV056:2KA8o943
+!s108 1422893038.632000
+!s107 E:/work/controller_cpld/src/HEADER.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/src/HEADER.v|
+!i10b 1
+vI2C
+R1
+r1
+31
+IZ[Q>4]G04b6Y15Q[oL1G^3
+R2
+w1422148205
+8E:/work/controller_cpld/src/I2C.v
+FE:/work/controller_cpld/src/I2C.v
+L0 18
+R3
+R4
+n@i2@c
+!s85 0
+!s100 1gE=?8Bi`U:^>9mHPD]HY2
+!s108 1422893038.341000
+!s107 E:/work/controller_cpld/src/I2C.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/src/I2C.v|
+!i10b 1
+vi2c_master_bit_ctrl
+R1
+r1
+31
+If8UH_^X__lNk6AFi1AGR_0
+R2
+w1422148255
+8E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v
+FE:/work/controller_cpld/sim/i2c_master_bit_ctrl.v
+L0 172
+R3
+R4
+!s85 0
+!s100 lI>zT5;L;dPSDLJ>K?BgA3
+!s108 1422893038.728000
+!s107 E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v|
+!i10b 1
+vi2c_master_byte_ctrl
+R1
+r1
+31
+IH9zkbOS<K37HkVG=Uj:No2
+R2
+w1422148222
+8E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v
+FE:/work/controller_cpld/sim/i2c_master_byte_ctrl.v
+L0 117
+R3
+R4
+!s85 0
+!s100 f_5e6jIaTR2i6@cmgmEc[3
+!s108 1422893038.837000
+!s107 E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v|
+!i10b 1
+vi2c_master_registers
+R1
+r1
+31
+IzMB;dE]`A_CYNR1d_lKW?2
+R2
+w1422148237
+8E:/work/controller_cpld/sim/i2c_master_registers.v
+FE:/work/controller_cpld/sim/i2c_master_registers.v
+L0 77
+R3
+R4
+!s85 0
+!s100 g[HNPFOK@d3@35Z1Im[2T1
+!s108 1422893039.042000
+!s107 E:/work/controller_cpld/sim/i2c_master_registers.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/sim/i2c_master_registers.v|
+!i10b 1
+vi2c_master_wb_top
+R1
+r1
+31
+I3^O<OW_2ob>mY@^g>PdQ:0
+R2
+w1422148242
+8E:/work/controller_cpld/sim/i2c_master_wb_top.v
+FE:/work/controller_cpld/sim/i2c_master_wb_top.v
+L0 115
+R3
+R4
+!s85 0
+!s100 39Mnb6mU[LRoe9kDkRWY<0
+!s108 1422893039.167000
+!s107 E:/work/controller_cpld/sim/i2c_master_wb_top.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/sim/i2c_master_wb_top.v|
+!i10b 1
+vtb_controller
+R1
+r1
+31
+IUGla=5BYh4^>2F`cEkjY11
+R2
+w1422891496
+8E:/work/controller_cpld/sim/tb_controller.v
+FE:/work/controller_cpld/sim/tb_controller.v
+L0 13
+R3
+R4
+!s85 0
+!s100 Qk[F8A_TY[VHm1WCfjYo82
+!s108 1422893039.297000
+!s107 E:/work/controller_cpld/sim/tb_controller.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/sim/tb_controller.v|
+!i10b 1
+vTOP
+R1
+r1
+31
+I_H?OWddW8BeoZ[Kn;jOFK2
+R2
+w1422892686
+8E:/work/controller_cpld/src/TOP.v
+FE:/work/controller_cpld/src/TOP.v
+L0 11
+R3
+R4
+n@t@o@p
+!s85 0
+!s100 l`RPaXBUR:4Qlbf@O<GVK0
+!s108 1422893038.537000
+!s107 E:/work/controller_cpld/src/TOP.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/src/TOP.v|
+!i10b 1
+vUFM_WB
+R1
+r1
+31
+IC1`o]4>^DQE<O0fe==03;0
+R2
+w1422892982
+8E:/work/controller_cpld/src/UFM_WB_top.v
+FE:/work/controller_cpld/src/UFM_WB_top.v
+L0 48
+R3
+R4
+n@u@f@m_@w@b
+!s85 0
+!s100 Wjhn<jRF`>84@Wd_b8]bc2
+!s108 1422893037.937000
+!s107 E:/work/controller_cpld/src/efb_define_def.v|E:/work/controller_cpld/src/UFM_WB_top.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/src/UFM_WB_top.v|
+!i10b 1
+vUSR_MEM
+R1
+r1
+31
+I=W2^38h>J;X:BAMI>D0>G2
+R2
+R5
+8E:/work/controller_cpld/ip/USR_MEM.v
+FE:/work/controller_cpld/ip/USR_MEM.v
+L0 8
+R3
+R4
+n@u@s@r_@m@e@m
+!s85 0
+!s100 4@ozzLLgnF0MdIPaR;Aeh3
+!s108 1422893038.147000
+!s107 E:/work/controller_cpld/ip/USR_MEM.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/ip/USR_MEM.v|
+!i10b 1
+vwb_master
+R1
+r1
+31
+ImNfYW2aVfX:7P<J90ZaLN0
+R2
+w1422150758
+8E:/work/controller_cpld/sim/wb_master.v
+FE:/work/controller_cpld/sim/wb_master.v
+L0 3
+R3
+R4
+!s85 0
+!s100 Uj[NdG;Io_b2K0N;[:kFg3
+!s108 1422893039.425000
+!s107 E:/work/controller_cpld/sim/wb_master.v|
+!s90 -reportprogress|300|-work|work|E:/work/controller_cpld/sim/wb_master.v|
+!i10b 1

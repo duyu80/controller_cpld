@@ -1,0 +1,4 @@
+@E: CG389 :"E:\work\controller_cpld\bld\..\src\TOP.v":64:12:64:24|Reference to undefined module efb_ufm_top
+@E: CG389 :"E:\work\controller_cpld\bld\..\src\TOP.v":64:12:64:24|Illegal or Unsupported Syntax within black box. Use: // synthesis translate_off {  unsupported Verilog } // synthesis translate_on 
+@E: CG389 :"E:\work\controller_cpld\bld\..\src\TOP.v":64:12:64:24|Alternatively, set the builtin compiler directive IGNORE_VERILOG_BLACKBOX_GUTS in the Verilog tab of the UI or set `define IGNORE_VERILOG_BLACKBOX_GUTS in any Verilog file.
+

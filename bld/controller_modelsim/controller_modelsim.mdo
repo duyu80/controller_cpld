@@ -1,0 +1,41 @@
+if {![file exists "E:/work/controller_cpld/bld/controller_modelsim/controller_modelsim.mpf"]} { 
+	project new "E:/work/controller_cpld/bld/controller_modelsim" controller_modelsim
+	project addfile "E:/work/controller_cpld/src/efb_define_def.v"
+	project addfile "E:/work/controller_cpld/src/UFM_WB_top.v"
+	project addfile "E:/work/controller_cpld/ip/EFB_UFM.v"
+	project addfile "E:/work/controller_cpld/ip/USR_MEM.v"
+	project addfile "E:/work/controller_cpld/src/GPIO.v"
+	project addfile "E:/work/controller_cpld/src/I2C.v"
+	project addfile "E:/work/controller_cpld/src/TOP.v"
+	project addfile "E:/work/controller_cpld/src/HEADER.v"
+	project addfile "E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v"
+	project addfile "E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v"
+	project addfile "E:/work/controller_cpld/sim/i2c_master_defines.v"
+	project addfile "E:/work/controller_cpld/sim/i2c_master_registers.v"
+	project addfile "E:/work/controller_cpld/sim/i2c_master_wb_top.v"
+	project addfile "E:/work/controller_cpld/sim/tb_controller.v"
+	project addfile "E:/work/controller_cpld/sim/wb_master.v"
+	project addfile "E:/work/controller_cpld/sim/DELAY.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog -work work "E:/work/controller_cpld/src/efb_define_def.v"
+	vlog -work work "E:/work/controller_cpld/src/UFM_WB_top.v"
+	vlog -work work "E:/work/controller_cpld/ip/EFB_UFM.v"
+	vlog -work work "E:/work/controller_cpld/ip/USR_MEM.v"
+	vlog -work work "E:/work/controller_cpld/src/GPIO.v"
+	vlog -work work "E:/work/controller_cpld/src/I2C.v"
+	vlog -work work "E:/work/controller_cpld/src/TOP.v"
+	vlog -work work "E:/work/controller_cpld/src/HEADER.v"
+	vlog -work work "E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v"
+	vlog -work work "E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v"
+	vlog -work work "E:/work/controller_cpld/sim/i2c_master_defines.v"
+	vlog -work work "E:/work/controller_cpld/sim/i2c_master_registers.v"
+	vlog -work work "E:/work/controller_cpld/sim/i2c_master_wb_top.v"
+	vlog -work work "E:/work/controller_cpld/sim/tb_controller.v"
+	vlog -work work "E:/work/controller_cpld/sim/wb_master.v"
+	vlog -work work "E:/work/controller_cpld/sim/DELAY.v"
+} else {
+	project open "E:/work/controller_cpld/bld/controller_modelsim/controller_modelsim"
+}
+vsim -version

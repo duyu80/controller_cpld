@@ -1,0 +1,142 @@
+timestamp=1423047910674
+
+[$root]
+A/$root=22|""|0|1*138557
+BinI32/$root=3*152244
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[DELAY]
+A/DELAY=22|./../../../sim/DELAY.v|10|1*105019
+BinI32/DELAY=3*83246
+R=./../../../sim/DELAY.v|10
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[EFB_UFM]
+A/EFB_UFM=22|./../../../ip/EFB_UFM.v|8|1*40409
+BinI32/EFB_UFM=3*36082
+R=./../../../ip/EFB_UFM.v|8
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[GPIO]
+A/GPIO=22|./../../../src/GPIO.v|10|1*3301
+BinI32/GPIO=3*1811
+R=./../../../src/GPIO.v|10
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[HEADER]
+A/HEADER=22|./../../../src/HEADER.v|15|1*390
+BinI32/HEADER=3*128
+R=./../../../src/HEADER.v|15
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[I2C]
+A/I2C=22|./../../../src/I2C.v|18|1*14348
+BinI32/I2C=3*8270
+R=./../../../src/I2C.v|18
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[TOP]
+A/TOP=22|./../../../src/TOP.v|11|1*68906
+BinI32/TOP=3*67139
+R=./../../../src/TOP.v|11
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[UFM_WB]
+A/UFM_WB=22|./../../../src/UFM_WB_top.v|5|1*49484
+BinI32/UFM_WB=3*36340
+R=./../../../src/UFM_WB_top.v|5
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[USR_MEM]
+A/USR_MEM=22|./../../../ip/USR_MEM.v|8|1*29767
+BinI32/USR_MEM=3*35824
+R=./../../../ip/USR_MEM.v|8
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[efb_ufm_top]
+A/efb_ufm_top=22|./../../../src/efb_top.v|1|1*59511
+BinI32/efb_ufm_top=3*53031
+R=./../../../src/efb_top.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[i2c_master_bit_ctrl]
+A/i2c_master_bit_ctrl=22|./../../../sim/i2c_master_bit_ctrl.v|172|1*80160
+BinI32/i2c_master_bit_ctrl=3*70793
+R=./../../../sim/i2c_master_bit_ctrl.v|172
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[i2c_master_byte_ctrl]
+A/i2c_master_byte_ctrl=22|./../../../sim/i2c_master_byte_ctrl.v|117|1*89665
+BinI32/i2c_master_byte_ctrl=3*76675
+R=./../../../sim/i2c_master_byte_ctrl.v|117
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[i2c_master_registers]
+A/i2c_master_registers=22|./../../../sim/i2c_master_registers.v|77|1*75604
+BinI32/i2c_master_registers=3*68020
+R=./../../../sim/i2c_master_registers.v|77
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[i2c_master_wb_top]
+A/i2c_master_wb_top=22|./../../../sim/i2c_master_wb_top.v|115|1*95624
+BinI32/i2c_master_wb_top=3*80421
+R=./../../../sim/i2c_master_wb_top.v|115
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[tb_controller]
+A/tb_controller=22|./../../../sim/tb_controller.v|13|1*138947
+BinI32/tb_controller=3*152372
+R=./../../../sim/tb_controller.v|13
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[wb_master]
+A/wb_master=22|./../../../sim/wb_master.v|3|1*108773
+BinI32/wb_master=3*87172
+R=./../../../sim/wb_master.v|3
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[~A]
+E:/work/controller_cpld/ip/EFB_UFM.v=0*15083*17160
+E:/work/controller_cpld/ip/USR_MEM.v=0*12264*13845
+E:/work/controller_cpld/sim/DELAY.v=0*46429*47384
+E:/work/controller_cpld/sim/i2c_master_bit_ctrl.v=0*36151*38369
+E:/work/controller_cpld/sim/i2c_master_byte_ctrl.v=0*40129*41932
+E:/work/controller_cpld/sim/i2c_master_defines.v=0*59196*59508
+E:/work/controller_cpld/sim/i2c_master_registers.v=0*32591*33770
+E:/work/controller_cpld/sim/i2c_master_wb_top.v=0*43470*45350
+E:/work/controller_cpld/sim/tb_controller.v=0*65261*67537
+E:/work/controller_cpld/sim/wb_master.v=0*50563*53283
+E:/work/controller_cpld/src/GPIO.v=0*3644*5239
+E:/work/controller_cpld/src/HEADER.v=0*744*1524
+E:/work/controller_cpld/src/I2C.v=0*7309*10935
+E:/work/controller_cpld/src/TOP.v=0*29618*31196
+E:/work/controller_cpld/src/UFM_WB_top.v=0*18488*24441
+E:/work/controller_cpld/src/efb_define_def.v=0*58101*58409
+E:/work/controller_cpld/src/efb_top.v=0*26173*28603
+LastVerilogToplevel=tb_controller
+ModifyID=299
+Version=73
+
+[~MFT]
+0=77|0work.mgf|67537|5648
+1=55|1work.mgf|138947|24442
+3=55|3work.mgf|152372|11905
+
+[~U]
+$root=12|0*64041|
+DELAY=12|0*46124||0x10
+EFB_UFM=12|0*14512||0x10
+GPIO=12|0*2143||0x10
+HEADER=12|0*150||0x10
+I2C=12|0*5856||0x10
+TOP=12|0*29303||0x10
+UFM_WB=12|0*17843||0x10
+USR_MEM=12|0*11583||0x10
+efb_ufm_top=12|0*25144||0x10
+i2c_master_bit_ctrl=12|0*34531||0x10
+i2c_master_byte_ctrl=12|0*39129||0x10
+i2c_master_registers=12|0*31908||0x10
+i2c_master_wb_top=12|0*42693||0x10
+tb_controller=12|0*64351||0x10
+wb_master=12|0*48130||0x10
+

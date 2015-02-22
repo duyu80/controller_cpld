@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "controller_cpld_controller_cpld.log"
+-o "controller_cpld_controller_cpld.csv"
+-pr "controller_cpld_controller_cpld.prf"

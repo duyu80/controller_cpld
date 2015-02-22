@@ -1,0 +1,1 @@
+D:/lscc/diamond/3.2_x64/bin/nt64/moduleparser.exe -PROJ rd1126 -pf D:/lscc/diamond/3.2_x64/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg D:/lscc/diamond/3.2_x64/cae_library/vhdl_packages/vdbs -lst E:/work/controller_cpld/bld/rd1126/source_files.lst

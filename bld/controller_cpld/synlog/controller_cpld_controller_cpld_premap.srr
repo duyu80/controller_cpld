@@ -1,0 +1,48 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 908R, Built Apr 16 2014 10:10:17
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld_scck.rpt 
+Printing clock  summary report in "E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: BN362 :"e:\work\controller_cpld\bld\..\src\ufm_wb_top.v":173:1:173:6|Removing sequential instance ERR of view:PrimLib.dffre(prim) in hierarchy view:work.UFM_WB_2s(verilog) because there are no references to its outputs 
+@W: MT462 :"e:\work\controller_cpld\bld\..\src\i2c.v":122:43:122:48|Net I2C_INST.un1_CNT8 appears to be an unidentified clock source. Assuming default frequency. 
+syn_allowed_resources : blockrams=7  set on top level netlist TOP
+
+
+Clock Summary
+**************
+
+Start                         Requested     Requested     Clock        Clock              
+Clock                         Frequency     Period        Type         Group              
+------------------------------------------------------------------------------------------
+System                        1.0 MHz       1000.000      system       system_clkgroup    
+TOP|SYSCLK_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
+==========================================================================================
+
+@W: MT531 :"e:\work\controller_cpld\bld\..\src\i2c.v":122:43:122:82|Found signal identified as System clock which controls 8 sequential elements including I2C_INST.CHECKSUM_OUT[7:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"e:\work\controller_cpld\bld\..\ip\usr_mem.v":76:10:76:24|Found inferred clock TOP|SYSCLK_inferred_clock which controls 417 sequential elements including i_efb_ufm_top.UUT.inst2.USR_MEM_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 141MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Feb 04 23:37:45 2015
+
+###########################################################]

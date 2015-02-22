@@ -1,0 +1,1 @@
+run_tcl -fg controller_cpld_controller_cpld_synplify.tcl

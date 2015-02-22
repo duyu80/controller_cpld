@@ -1,0 +1,90 @@
+main()
+{
+// device info
+addr = 0xc2;
+//Read UFM test begin
+//Enable UFM
+print("Enable UFM\n");
+send_message(addr, FALSE, "11 04", TRUE);  //cmd = 3'b100;
+send_message(addr, FALSE, "10 01", TRUE);  // go = 1
+pause(100);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+		
+//Read UFM0
+print("Read UFM0\n");
+send_message(addr, FALSE, "11 00", TRUE);  //cmd = 3'b000;
+send_message(addr, FALSE, "10 01", TRUE);  // go = 1
+pause(100);
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+
+//Read back data
+
+print("Read back data0\n");
+send_message(addr, FALSE, "12 00", TRUE);  //mem_addr[3:0]=0
+pause(100);
+send_message(addr, FALSE, "10 04", TRUE);  //mem_ce,mem_we = 2'b10;
+pause(100);
+send_message(addr, FALSE, "06", TRUE);  //read back
+pause(100);
+readback = receive_message(addr, FALSE, 1, TRUE);
+pause(100);
+print(readback);
+print("\n");
+
+print("Read back data1\n");
+send_message(addr, FALSE, "12 01", TRUE);  //mem_addr[3:0]=0
+pause(100);
+send_message(addr, FALSE, "10 04", TRUE);  //mem_ce,mem_we = 2'b10;
+pause(100);
+send_message(addr, FALSE, "06", TRUE);  //read back
+pause(100);
+readback = receive_message(addr, FALSE, 1, TRUE);
+pause(100);
+print(readback);
+print("\n");
+
+
+do
+{
+//read busy,err
+print("Read busy,err\n");
+send_message(addr, FALSE, "07", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+pause(500);
+}
+while( string_compare(readback, "02") == 0 );
+
+
+//check whether cpld is alive
+print("check whether cpld is alivea\n");
+send_message(addr, FALSE, "00", TRUE);  //read back
+readback = receive_message(addr, FALSE, 1, TRUE);
+print(readback);
+print("\n");
+
+
+}

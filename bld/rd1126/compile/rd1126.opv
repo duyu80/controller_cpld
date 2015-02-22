@@ -1,0 +1,1 @@
+ -erf "E:\work\controller_cpld\bld\rd1126\compile\rd1126.erf" -work work -lc E:/work/controller_cpld/bld/rd1126/library.cfg -fl E:/work/controller_cpld/bld/rd1126/projlib.cfg -o E:/work/controller_cpld/bld/rd1126/compile -l "work" -sve   -dbg

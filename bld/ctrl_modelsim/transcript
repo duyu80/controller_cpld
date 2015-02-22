@@ -1,0 +1,28 @@
+# Reading C:/modeltech64_10.2/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2 Feb  2 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+do ctrl_modelsim.mdo
+# ** Error: A project is not currently open.
+# Error in macro ./ctrl_modelsim.mdo line 18
+# A project is not currently open.
+#     while executing
+# "project addfile "E:/work/controller_cpld/sim/UFM_WB_TB.v""
+#     invoked from within
+# "if {![file exists "E:/work/controller_cpld/bld/ctrl_modelsim/ctrl_modelsim.mpf"]} { 
+# 	project new "E:/work/controller_cpld/bld/ctrl_modelsim" ctrl_mod..."
+do ctrl_modelsim.mdo
+# ** Error: A project is not currently open.
+# Error in macro ./ctrl_modelsim.mdo line 18
+# A project is not currently open.
+#     while executing
+# "project addfile "E:/work/controller_cpld/sim/UFM_WB_TB.v""
+#     invoked from within
+# "if {![file exists "E:/work/controller_cpld/bld/ctrl_modelsim/ctrl_modelsim.mpf"]} { 
+# 	project new "E:/work/controller_cpld/bld/ctrl_modelsim" ctrl_mod..."

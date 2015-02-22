@@ -1,0 +1,29 @@
+#Build: Synplify Pro I-2013.09L-SP1-1 , Build 098R, Apr 15 2014
+#install: D:\lscc\diamond\3.2_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: PC1
+
+#Implementation: controller_cpld
+
+$ Start of Compile
+#Wed Jan 21 21:25:52 2015
+
+Synopsys Verilog Compiler, version comp201309rcp1, Build 147R, built Apr 16 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@I::"D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v"
+@I::"D:\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"D:\lscc\diamond\3.2_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"D:\lscc\diamond\3.2_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"D:\lscc\diamond\3.2_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"D:\lscc\diamond\3.2_x64\synpbase\lib\vlog\hypermods.v"
+@I::"E:\work\controller_cpld\src\efb_define_def.v"
+@I::"E:\work\controller_cpld\src\UFM_WB_top.v"
+Verilog syntax check successful!
+Selecting top level module UFM_WB
+@E: CG389 :"E:\work\controller_cpld\src\UFM_WB_top.v":130:8:130:12|Reference to undefined module EFB_UFM
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jan 21 21:25:52 2015
+
+###########################################################]

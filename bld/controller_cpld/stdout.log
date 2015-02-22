@@ -1,0 +1,88 @@
+line 5789, col 42: Option set not found: vcs_ECP4_lib.
+line 5803, col 44: Option set not found: vcs_ECP45M_lib.
+
+
+Running in Lattice mode
+
+
+Starting:    D:\lscc\diamond\3.2_x64\synpbase\win64\mbin\synbatch.exe
+Install:     D:\lscc\diamond\3.2_x64\synpbase
+Date:        Wed Feb 04 23:37:42 2015
+Version:     I-2013.09L-SP1-1 
+
+Arguments:   -product synplify_pro  -batch controller_cpld_controller_cpld_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+log file: "E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srr"
+
+
+
+
+
+Running proj_1|controller_cpld
+
+
+Running: Compile on proj_1|controller_cpld
+
+
+Running: Compile Process on proj_1|controller_cpld
+
+
+Running: Compile Input on proj_1|controller_cpld
+
+Copied E:\work\controller_cpld\bld\controller_cpld\synwork\controller_cpld_controller_cpld_comp.srs to E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srs
+
+compiler Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+
+
+Copied E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srr to E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srf
+
+Complete: Compile Process on proj_1|controller_cpld
+
+
+Running: Pre-mapping on proj_1|controller_cpld
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:01s
+
+
+Complete: Compile on proj_1|controller_cpld
+
+
+Running: Map on proj_1|controller_cpld
+
+
+Running: Map & Optimize on proj_1|controller_cpld
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:05s
+
+
+Complete: Map on proj_1|controller_cpld
+
+Copied E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srr to E:\work\controller_cpld\bld\controller_cpld\controller_cpld_controller_cpld.srf
+
+Complete: Logic Synthesis on proj_1|controller_cpld
+
+TCL script complete: "controller_cpld_controller_cpld_synplify.tcl"
+
+exit status=0
+
+
+exit status=0
+
+
+Save changes for project:
+E:\work\controller_cpld\bld\controller_cpld\proj_1.prj
+
+batch mode default:no
+

@@ -1,0 +1,1 @@
+ -u "D:\lscc\diamond\3.2_x64\active-hdl\bin/systf.dll" -v2k5  "E:\work\controller_cpld\sim\tb_controller.v"  -cs  -g 5  -r -li "E:\work\controller_cpld\bld\controller_active\compile\controller_active.epr" -p "E:\work\controller_cpld\bld\controller_active\work" 

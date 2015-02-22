@@ -1,0 +1,8 @@
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\..\..\sim\UFM_WB_TB.v|]
+TemplateId=2
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\..\..\src\TOP.v|]
+TemplateId=2
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\..\..\sim\tb_controller.v|]
+TemplateId=2
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\..\..\src\efb_top.v|]
+TemplateId=2

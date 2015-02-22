@@ -1,0 +1,22 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="controller_active" simType="Active-HDL">
+    <Source worklib="work" path="../src/HEADER.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="../src/GPIO.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="../src/I2C.v" type="VERILOG" include="none"/>
+    <Source worklib="" path="../ip/USR_MEM.v" type="none" include="none"/>
+    <Source worklib="" path="../ip/EFB_UFM.v" type="none" include="none"/>
+    <Source worklib="" path="../src/UFM_WB_top.v" type="none" include="none"/>
+    <Source worklib="work" path="../src/TOP.v" type="VERILOG" include="none"/>
+    <Source worklib="" path="../sim/i2c_master_registers.v" type="none" include="none"/>
+    <Source worklib="" path="../sim/i2c_master_bit_ctrl.v" type="none" include="none"/>
+    <Source worklib="" path="../sim/i2c_master_byte_ctrl.v" type="none" include="none"/>
+    <Source worklib="" path="../sim/i2c_master_wb_top.v" type="none" include="none"/>
+    <Source worklib="" path="../sim/DELAY.v" type="none" include="none"/>
+    <Source worklib="" path="../sim/wb_master.v" type="none" include="none"/>
+    <Source worklib="" path="../sim/tb_controller.v" type="none" include="none"/>
+    <Source worklib="" path="../src/efb_define_def.v" type="none" include="none"/>
+    <Source worklib="" path="../sim/i2c_master_defines.v" type="none" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VERILOG" name="tb_controller"/>
+</BaliSimProject>

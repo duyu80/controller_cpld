@@ -1,0 +1,9 @@
+@W: MT462 :"e:\work\controller_cpld\bld\..\src\i2c.v":122:43:122:48|Net I2C_INST.un1_CNT8 appears to be an unidentified clock source. Assuming default frequency. 
+@W: BN132 :"e:\work\controller_cpld\bld\..\src\header.v":41:0:41:5|Removing instance HEADER_INST.DOUT[7],  because it is equivalent to instance HEADER_INST.DOUT[6]
+@W: BN132 :"e:\work\controller_cpld\bld\..\src\header.v":41:0:41:5|Removing instance HEADER_INST.DOUT[3],  because it is equivalent to instance HEADER_INST.DOUT[1]
+@W: BN132 :"e:\work\controller_cpld\bld\..\src\header.v":41:0:41:5|Removing instance HEADER_INST.DOUT[1],  because it is equivalent to instance HEADER_INST.DOUT[0]
+@W: MT462 :"e:\work\controller_cpld\bld\..\src\i2c.v":251:13:251:50|Net I2C_INST.N_36_i appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\work\controller_cpld\bld\..\src\i2c.v":251:13:251:50|Net I2C_INST.N_36_i appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT246 :"e:\work\controller_cpld\bld\..\src\top.v":42:16:42:23|Blackbox OSCH is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"e:\work\controller_cpld\bld\..\ip\efb_ufm.v":92:8:92:16|Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock TOP|SYSCLK_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:SYSCLK"

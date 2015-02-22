@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "E:/work/controller_cpld/bld"  

@@ -1,0 +1,161 @@
+----------------------------------------------------------------------
+Report for cell TOP.verilog
+
+Register bits: 331 of 1280 (26%)
+Latch bits:      8
+PIC Latch:       0
+I/O cells:       6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        3       100.0
+                              CCU2D       28       100.0
+                              DP8KC        1       100.0
+                                EFB        1       100.0
+                            FD1P3AX        8       100.0
+                            FD1P3BX        2       100.0
+                            FD1P3DX      201       100.0
+                            FD1P3IX       17       100.0
+                            FD1S1AY        8       100.0
+                            FD1S3AX       27       100.0
+                            FD1S3AY        1       100.0
+                            FD1S3BX        5       100.0
+                            FD1S3DX       43       100.0
+                            FD1S3IX       24       100.0
+                            FD1S3JX        1       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                           IFS1P3DX        2       100.0
+                                INV        5       100.0
+                                 OB        1       100.0
+                           ORCALUT4      490       100.0
+                               OSCH        1       100.0
+                              PFUMX        1       100.0
+                                PUR        1       100.0
+                                VHI        8       100.0
+                                VLO        8       100.0
+SUB MODULES 
+                            EFB_UFM        1       100.0
+                               GPIO        1       100.0
+                             HEADER        1       100.0
+                                I2C        1       100.0
+                          UFM_WB_2s        1       100.0
+                            USR_MEM        1       100.0
+                        efb_ufm_top        1       100.0
+                            
+                         TOTAL           897           
+----------------------------------------------------------------------
+Report for cell I2C.netlist
+     Instance path:  I2C_INST
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       10        35.7
+                            FD1P3AX        2        25.0
+                            FD1P3BX        1        50.0
+                            FD1P3DX       48        23.9
+                            FD1S1AY        8       100.0
+                            FD1S3BX        1        20.0
+                            FD1S3DX       21        48.8
+                                INV        2        40.0
+                           ORCALUT4       91        18.6
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL           186           
+----------------------------------------------------------------------
+Report for cell HEADER.netlist
+     Instance path:  HEADER_INST
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        4         2.0
+                           ORCALUT4        4         0.8
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell GPIO.netlist
+     Instance path:  GPIO_INST
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX      136        67.7
+                           ORCALUT4      127        25.9
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL           265           
+----------------------------------------------------------------------
+Report for cell efb_ufm_top.netlist
+     Instance path:  i_efb_ufm_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        2        66.7
+                              CCU2D        7        25.0
+                              DP8KC        1       100.0
+                                EFB        1       100.0
+                            FD1P3AX        6        75.0
+                            FD1P3BX        1        50.0
+                            FD1P3DX       13         6.5
+                            FD1P3IX       17       100.0
+                            FD1S3AX        6        22.2
+                            FD1S3AY        1       100.0
+                            FD1S3BX        4        80.0
+                            FD1S3DX       22        51.2
+                            FD1S3IX       23        95.8
+                            FD1S3JX        1       100.0
+                                INV        2        40.0
+                           ORCALUT4      266        54.3
+                              PFUMX        1       100.0
+                                VHI        4        50.0
+                                VLO        4        50.0
+SUB MODULES 
+                            EFB_UFM        1       100.0
+                          UFM_WB_2s        1       100.0
+                            USR_MEM        1       100.0
+                            
+                         TOTAL           385           
+----------------------------------------------------------------------
+Report for cell UFM_WB_2s.netlist
+     Instance path:  i_efb_ufm_top.UUT
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        2        66.7
+                              CCU2D        3        10.7
+                              DP8KC        1       100.0
+                                EFB        1       100.0
+                            FD1P3BX        1        50.0
+                            FD1P3DX       13         6.5
+                            FD1S3BX        4        80.0
+                            FD1S3DX       22        51.2
+                                INV        2        40.0
+                           ORCALUT4      198        40.4
+                              PFUMX        1       100.0
+                                VHI        3        37.5
+                                VLO        3        37.5
+SUB MODULES 
+                            EFB_UFM        1       100.0
+                            USR_MEM        1       100.0
+                            
+                         TOTAL           256           
+----------------------------------------------------------------------
+Report for cell USR_MEM.netlist
+     Instance path:  i_efb_ufm_top.UUT.inst2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              DP8KC        1       100.0
+                                INV        1        20.0
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell EFB_UFM.netlist
+     Instance path:  i_efb_ufm_top.UUT.inst1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        2        66.7
+                                EFB        1       100.0
+                           ORCALUT4        5         1.0
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL            10           

@@ -1,0 +1,11 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="ctrl_sim" simType="Active-HDL">
+    <Source worklib="work" path="../ip/USR_MEM.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="../ip/EFB_UFM.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="../src/UFM_WB_top.v" type="VERILOG" include="none"/>
+    <Source worklib="" path="../sim/UFM_WB_TB.v" type="none" include="none"/>
+    <Source worklib="work" path="../src/efb_define_def.v" type="VERILOG" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VERILOG" name="UFM_WB_tb"/>
+</BaliSimProject>

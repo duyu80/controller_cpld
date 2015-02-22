@@ -1,0 +1,96 @@
+[ START MERGED ]
+I2C_INST/CN SYSCLK
+[ END MERGED ]
+[ START CLIPPED ]
+GND
+i_efb_ufm_top/GND
+i_efb_ufm_top/UUT/GND
+i_efb_ufm_top/UUT/inst1/VCC
+i_efb_ufm_top/UUT/inst1/GND
+i_efb_ufm_top/UUT/inst2/VCC
+i_efb_ufm_top/UUT/inst2/GND
+I2C_INST/GND
+VCC
+cnt_cry_0_COUT[19]
+SEDSTDBY
+i_efb_ufm_top/cnt_cry_0_S0[0]
+i_efb_ufm_top/N_1
+i_efb_ufm_top/cnt_s_0_S1[5]
+i_efb_ufm_top/cnt_s_0_COUT[5]
+i_efb_ufm_top/UUT/un1_count_5_cry_0_0_S1
+i_efb_ufm_top/UUT/un1_count_5_cry_0_0_S0
+i_efb_ufm_top/UUT/N_2
+i_efb_ufm_top/UUT/un1_count_5_cry_3_0_COUT
+i_efb_ufm_top/UUT/inst1/CFGSTDBY
+i_efb_ufm_top/UUT/inst1/CFGWAKE
+i_efb_ufm_top/UUT/inst1/wbc_ufm_irq
+i_efb_ufm_top/UUT/inst1/TCOC
+i_efb_ufm_top/UUT/inst1/TCINT
+i_efb_ufm_top/UUT/inst1/SPIIRQO
+i_efb_ufm_top/UUT/inst1/SPICSNEN
+i_efb_ufm_top/UUT/inst1/SPIMCSN7
+i_efb_ufm_top/UUT/inst1/SPIMCSN6
+i_efb_ufm_top/UUT/inst1/SPIMCSN5
+i_efb_ufm_top/UUT/inst1/SPIMCSN4
+i_efb_ufm_top/UUT/inst1/SPIMCSN3
+i_efb_ufm_top/UUT/inst1/SPIMCSN2
+i_efb_ufm_top/UUT/inst1/SPIMCSN1
+i_efb_ufm_top/UUT/inst1/SPIMCSN0
+i_efb_ufm_top/UUT/inst1/SPIMOSIEN
+i_efb_ufm_top/UUT/inst1/SPIMOSIO
+i_efb_ufm_top/UUT/inst1/SPIMISOEN
+i_efb_ufm_top/UUT/inst1/SPIMISOO
+i_efb_ufm_top/UUT/inst1/SPISCKEN
+i_efb_ufm_top/UUT/inst1/SPISCKO
+i_efb_ufm_top/UUT/inst1/I2C2IRQO
+i_efb_ufm_top/UUT/inst1/i2c1_irqo
+i_efb_ufm_top/UUT/inst1/I2C2SDAOEN
+i_efb_ufm_top/UUT/inst1/I2C2SDAO
+i_efb_ufm_top/UUT/inst1/I2C2SCLOEN
+i_efb_ufm_top/UUT/inst1/I2C2SCLO
+i_efb_ufm_top/UUT/inst1/PLLDATO0
+i_efb_ufm_top/UUT/inst1/PLLDATO1
+i_efb_ufm_top/UUT/inst1/PLLDATO2
+i_efb_ufm_top/UUT/inst1/PLLDATO3
+i_efb_ufm_top/UUT/inst1/PLLDATO4
+i_efb_ufm_top/UUT/inst1/PLLDATO5
+i_efb_ufm_top/UUT/inst1/PLLDATO6
+i_efb_ufm_top/UUT/inst1/PLLDATO7
+i_efb_ufm_top/UUT/inst1/PLLADRO0
+i_efb_ufm_top/UUT/inst1/PLLADRO1
+i_efb_ufm_top/UUT/inst1/PLLADRO2
+i_efb_ufm_top/UUT/inst1/PLLADRO3
+i_efb_ufm_top/UUT/inst1/PLLADRO4
+i_efb_ufm_top/UUT/inst1/PLLWEO
+i_efb_ufm_top/UUT/inst1/PLL1STBO
+i_efb_ufm_top/UUT/inst1/PLL0STBO
+i_efb_ufm_top/UUT/inst1/PLLRSTO
+i_efb_ufm_top/UUT/inst1/PLLCLKO
+i_efb_ufm_top/UUT/inst2/USR_MEM_0_0_0_0_DOB8
+i_efb_ufm_top/UUT/inst2/USR_MEM_0_0_0_0_DOA8
+I2C_INST/LOC_cry_0_S0[0]
+I2C_INST/N_1
+I2C_INST/LOC_s_0_S1[7]
+I2C_INST/LOC_s_0_COUT[7]
+I2C_INST/un1_REG_DIN_1_cry_0_0_S1
+I2C_INST/un1_REG_DIN_1_cry_0_0_S0
+I2C_INST/N_2
+I2C_INST/un1_REG_DIN_1_s_7_0_S1
+I2C_INST/un1_REG_DIN_1_s_7_0_COUT
+cnt_cry_0_S0_0[0]
+N_1
+[ END CLIPPED ]
+[ START OSC ]
+SYSCLK 2.08
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.2.0.134 -- WARNING: Map write only section -- Wed Feb 04 23:37:53 2015
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=ENABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE ;
+LOCATE COMP "SDA" SITE "D1" ;
+LOCATE COMP "RESET_N" SITE "N3" ;
+LOCATE COMP "SCL" SITE "C2" ;
+FREQUENCY NET "SYSCLK" 2.080000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

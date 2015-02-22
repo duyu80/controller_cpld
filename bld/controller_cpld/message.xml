@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RESET_N_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RESET_N_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>RESET_N</Dynamic>
+            <Dynamic>N3</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=I2C_INST/N_36_i loads=4 clock_loads=4</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=I2C_INST/N_36_i loads=4 clock_loads=4</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>READ_DELAY</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CASE_I2C_END_NOCHK</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CASE_I2C_END</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CASE_I2C_DATA2</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CASE_I2C_DATA1</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CASE_I2C_LOC</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CASE_I2C_ADD</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CASE_I2C_IDLE</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>TIMER_5S</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>TIMER_1S</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPO_DFT_VAL</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_F</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_E</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_D</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_C</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_B</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_A</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_9</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_8</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_7</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_6</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_5</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_4</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_3</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_2</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_1</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GPIOE_0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>READ_DELAY</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WR_SM_END</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WR_SM_WRUFM</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WR_SM_DATA1</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WR_SM_DATA0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WR_SM_ERAS_UFM</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WR_SM_ENUFM</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WR_SM_IDLE</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RD_SM_END</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RD_SM_RDDATA1</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RD_SM_RDDATA0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RD_SM_RDUFM</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RD_SM_ENUFM</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RD_SM_IDLE</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>delay</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_efb_ufm_top/UUT/un1_count_5_cry_3_0_COUT</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_efb_ufm_top/UUT/un1_count_5_cry_0_0_S0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_efb_ufm_top/UUT/un1_count_5_cry_0_0_S1</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>I2C_INST/un1_REG_DIN_1_s_7_0_COUT</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>I2C_INST/un1_REG_DIN_1_s_7_0_S1</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>I2C_INST/un1_REG_DIN_1_cry_0_0_S0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>I2C_INST/un1_REG_DIN_1_cry_0_0_S1</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>I2C_INST/LOC_s_0_COUT[7]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>I2C_INST/LOC_s_0_S1[7]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>I2C_INST/LOC_cry_0_S0[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_efb_ufm_top/cnt_s_0_COUT[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_efb_ufm_top/cnt_s_0_S1[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_efb_ufm_top/cnt_cry_0_S0[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>SEDSTDBY</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>cnt_cry_0_S0_0[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>cnt_cry_0_COUT[19]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>16</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;E:\work\controller_cpld\bld\..\src\UFM_WB_top.v&quot;:154:0:154:5|Optimizing register bit wb_adr_i[2] to a constant 0</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\UFM_WB_top.v</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit wb_adr_i[2] to a constant 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;E:\work\controller_cpld\bld\..\src\UFM_WB_top.v&quot;:154:0:154:5|Optimizing register bit wb_adr_i[3] to a constant 0</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\UFM_WB_top.v</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit wb_adr_i[3] to a constant 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;E:\work\controller_cpld\bld\..\src\UFM_WB_top.v&quot;:154:0:154:5|Optimizing register bit wb_adr_i[7] to a constant 0</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\UFM_WB_top.v</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit wb_adr_i[7] to a constant 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;E:\work\controller_cpld\bld\..\src\UFM_WB_top.v&quot;:154:0:154:5|Pruning register bit 7 of wb_adr_i[7:0]</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\UFM_WB_top.v</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 7 of wb_adr_i[7:0] </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;E:\work\controller_cpld\bld\..\src\UFM_WB_top.v&quot;:154:0:154:5|Pruning register bits 3 to 2 of wb_adr_i[7:0]</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\UFM_WB_top.v</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of wb_adr_i[7:0] </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CS263 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:186:12:186:14|Port-width mismatch for port ufm_page. Formal has width 11, Actual 32</Dynamic>
+            <Navigation>CS263</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Port-width mismatch for port ufm_page. Formal has width 11, Actual 32</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:53:8:53:19|No assignment to wire TIMER_OVFLOW</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>No assignment to wire TIMER_OVFLOW</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:54:7:54:17|No assignment to TIMER_CLR_N</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>No assignment to TIMER_CLR_N</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:257:0:257:5|Pruning register RD_END3</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register RD_END3 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:257:0:257:5|Pruning register WR_END1</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register WR_END1 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:257:0:257:5|Pruning register WR_END2</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register WR_END2 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:257:0:257:5|Pruning register PORT_CSD2[15:0]</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register PORT_CSD2[15:0] </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:242:0:242:5|Pruning register CHECKSUM_IN[7:0]</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>242</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>242</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register CHECKSUM_IN[7:0] </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:178:0:178:5|Pruning register CNT9</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>178</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>178</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register CNT9 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:162:0:162:5|Pruning register START</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register START </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:162:0:162:5|Pruning register STOP</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register STOP </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:141:0:141:5|Pruning register SCL_PCLKD3</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>141</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>141</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register SCL_PCLKD3 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:141:0:141:5|Pruning register SDA_NCLK</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>141</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>141</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register SDA_NCLK </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;E:\work\controller_cpld\bld\..\src\I2C.v&quot;:141:0:141:5|Pruning register SDA_PCLK</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\I2C.v</Navigation>
+            <Navigation>141</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>141</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register SDA_PCLK </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:42:16:42:23|Undriven input STDBY on instance clk_inst, tying to 0</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>Undriven input STDBY on instance clk_inst, tying to 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:149:7:149:17|Undriven input mem_rd_data on instance HEADER_INST, tying to 0</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Undriven input mem_rd_data on instance HEADER_INST, tying to 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:149:7:149:17|Undriven input BUSY on instance HEADER_INST, tying to 0</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Undriven input BUSY on instance HEADER_INST, tying to 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:149:7:149:17|Undriven input ERR on instance HEADER_INST, tying to 0</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Undriven input ERR on instance HEADER_INST, tying to 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:149:7:149:17|Undriven input URT_INTERCONN_OUT on instance HEADER_INST, tying to 0</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Undriven input URT_INTERCONN_OUT on instance HEADER_INST, tying to 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:149:7:149:17|Undriven input URT_KEY_DISABLE_OUT on instance HEADER_INST, tying to 0</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Undriven input URT_KEY_DISABLE_OUT on instance HEADER_INST, tying to 0</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:20:28:24|No assignment to wire DIN_1</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>No assignment to wire DIN_1</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:27:28:31|No assignment to wire DIN_2</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>No assignment to wire DIN_2</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:34:28:38|No assignment to wire DIN_3</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>No assignment to wire DIN_3</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:41:28:45|No assignment to wire DIN_4</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>No assignment to wire DIN_4</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:49:28:53|No assignment to wire DIN_5</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>No assignment to wire DIN_5</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:56:28:60|No assignment to wire DIN_6</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>No assignment to wire DIN_6</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:63:28:67|No assignment to wire DIN_7</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>No assignment to wire DIN_7</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:16:29:20|No assignment to wire DIN_8</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>No assignment to wire DIN_8</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:23:29:27|No assignment to wire DIN_9</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>No assignment to wire DIN_9</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:37:29:41|No assignment to wire DIN_B</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>No assignment to wire DIN_B</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:44:29:48|No assignment to wire DIN_C</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>No assignment to wire DIN_C</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:51:29:55|No assignment to wire DIN_D</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>No assignment to wire DIN_D</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:58:29:62|No assignment to wire DIN_E</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>No assignment to wire DIN_E</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:65:29:69|No assignment to wire DIN_F</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>No assignment to wire DIN_F</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:30:7:30:11|No assignment to wire WR_EN</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>No assignment to wire WR_EN</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[21] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[21] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[22] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[22] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[23] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[23] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[24] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[24] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[25] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[25] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[26] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[26] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[27] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[27] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[28] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[28] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[29] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[29] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[30] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[30] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Register bit cnt[31] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[31] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:51:0:51:5|Pruning register bits 31 to 21 of cnt[31:0]</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 31 to 21 of cnt[31:0] </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:20:28:24|*Input DIN_1[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>*Input DIN_1[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:27:28:31|*Input DIN_2[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>*Input DIN_2[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:34:28:38|*Input DIN_3[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>*Input DIN_3[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:41:28:45|*Input DIN_4[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>*Input DIN_4[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:49:28:53|*Input DIN_5[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>*Input DIN_5[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:56:28:60|*Input DIN_6[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>*Input DIN_6[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:28:63:28:67|*Input DIN_7[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>*Input DIN_7[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:16:29:20|*Input DIN_8[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>*Input DIN_8[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:23:29:27|*Input DIN_9[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>*Input DIN_9[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:37:29:41|*Input DIN_B[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>*Input DIN_B[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:44:29:48|*Input DIN_C[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>*Input DIN_C[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:51:29:55|*Input DIN_D[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>*Input DIN_D[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:58:29:62|*Input DIN_E[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>*Input DIN_E[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;E:\work\controller_cpld\bld\..\src\TOP.v&quot;:29:65:29:69|*Input DIN_F[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\TOP.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>*Input DIN_F[7:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;E:\work\controller_cpld\bld\..\src\HEADER.v&quot;:18:33:18:42|Input port bits 15 to 8 of OFFSET_SEL[15:0] are unused</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\HEADER.v</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Input port bits 15 to 8 of OFFSET_SEL[15:0] are unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;E:\work\controller_cpld\bld\..\src\HEADER.v&quot;:18:33:18:42|Input port bits 4 to 3 of OFFSET_SEL[15:0] are unused</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\HEADER.v</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Input port bits 4 to 3 of OFFSET_SEL[15:0] are unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;E:\work\controller_cpld\bld\..\src\HEADER.v&quot;:21:32:21:34|Input DIN is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\HEADER.v</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Input DIN is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;E:\work\controller_cpld\bld\..\src\HEADER.v&quot;:23:24:23:34|Input mem_rd_data is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\HEADER.v</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Input mem_rd_data is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[6] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[6] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[7] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[7] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[8] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[8] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[9] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[9] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[10] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[10] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[11] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[11] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[12] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[12] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[13] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[13] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[14] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[14] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[15] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[15] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[16] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[16] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[17] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[17] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[18] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[18] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[19] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[19] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[20] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[20] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[21] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[21] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[22] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[22] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[23] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[23] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[24] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[24] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[25] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[25] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[26] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[26] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[27] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[27] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[28] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[28] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[29] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[29] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[30] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[30] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Register bit cnt[31] is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Register bit cnt[31] is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;E:\work\controller_cpld\bld\..\src\efb_top.v&quot;:114:0:114:5|Pruning register bits 31 to 6 of cnt[31:0]</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\efb_top.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 31 to 6 of cnt[31:0] </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;E:\work\controller_cpld\bld\..\src\UFM_WB_top.v&quot;:154:0:154:5|Pruning register bits 6 to 5 of wb_adr_i[6:4]</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>E:\work\controller_cpld\bld\..\src\UFM_WB_top.v</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 6 to 5 of wb_adr_i[6:4] </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;e:\work\controller_cpld\bld\..\src\i2c.v&quot;:122:43:122:48|Net I2C_INST.un1_CNT8 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\i2c.v</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>Net I2C_INST.un1_CNT8 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;e:\work\controller_cpld\bld\..\src\i2c.v&quot;:122:43:122:82|Found signal identified as System clock which controls 8 sequential elements including I2C_INST.CHECKSUM_OUT[7:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\i2c.v</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>Found signal identified as System clock which controls 8 sequential elements including I2C_INST.CHECKSUM_OUT[7:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;e:\work\controller_cpld\bld\..\ip\usr_mem.v&quot;:76:10:76:24|Found inferred clock TOP|SYSCLK_inferred_clock which controls 417 sequential elements including i_efb_ufm_top.UUT.inst2.USR_MEM_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\ip\usr_mem.v</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>Found inferred clock TOP|SYSCLK_inferred_clock which controls 417 sequential elements including i_efb_ufm_top.UUT.inst2.USR_MEM_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;e:\work\controller_cpld\bld\..\src\i2c.v&quot;:122:43:122:48|Net I2C_INST.un1_CNT8 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\i2c.v</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>Net I2C_INST.un1_CNT8 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;e:\work\controller_cpld\bld\..\src\header.v&quot;:41:0:41:5|Removing instance HEADER_INST.DOUT[7],  because it is equivalent to instance HEADER_INST.DOUT[6]</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\header.v</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance HEADER_INST.DOUT[7],  because it is equivalent to instance HEADER_INST.DOUT[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;e:\work\controller_cpld\bld\..\src\header.v&quot;:41:0:41:5|Removing instance HEADER_INST.DOUT[3],  because it is equivalent to instance HEADER_INST.DOUT[1]</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\header.v</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance HEADER_INST.DOUT[3],  because it is equivalent to instance HEADER_INST.DOUT[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;e:\work\controller_cpld\bld\..\src\header.v&quot;:41:0:41:5|Removing instance HEADER_INST.DOUT[1],  because it is equivalent to instance HEADER_INST.DOUT[0]</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\header.v</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance HEADER_INST.DOUT[1],  because it is equivalent to instance HEADER_INST.DOUT[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;e:\work\controller_cpld\bld\..\src\i2c.v&quot;:251:13:251:50|Net I2C_INST.N_36_i appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\i2c.v</Navigation>
+            <Navigation>251</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>251</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>Net I2C_INST.N_36_i appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;e:\work\controller_cpld\bld\..\src\i2c.v&quot;:251:13:251:50|Net I2C_INST.N_36_i appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\i2c.v</Navigation>
+            <Navigation>251</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>251</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>Net I2C_INST.N_36_i appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;e:\work\controller_cpld\bld\..\src\top.v&quot;:42:16:42:23|Blackbox OSCH is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\src\top.v</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>Blackbox OSCH is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;e:\work\controller_cpld\bld\..\ip\efb_ufm.v&quot;:92:8:92:16|Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>e:\work\controller_cpld\bld\..\ip\efb_ufm.v</Navigation>
+            <Navigation>92</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>92</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock TOP|SYSCLK_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object &quot;n:SYSCLK&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock TOP|SYSCLK_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object &quot;n:SYSCLK&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

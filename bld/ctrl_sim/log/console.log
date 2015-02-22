@@ -1,0 +1,15 @@
+alog -O2 -sve   -work work $dsn/../../ip/USR_MEM.v $dsn/../../ip/EFB_UFM.v $dsn/../../src/UFM_WB_top.v $dsn/../../sim/UFM_WB_TB.v $dsn/../../src/efb_define_def.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: UFM_WB_tb.
+# $root top modules: UFM_WB_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+#  Simulation has been stopped

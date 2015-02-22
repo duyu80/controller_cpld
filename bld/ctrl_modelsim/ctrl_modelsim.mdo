@@ -1,0 +1,19 @@
+if {![file exists "E:/work/controller_cpld/bld/ctrl_modelsim/ctrl_modelsim.mpf"]} { 
+	project new "E:/work/controller_cpld/bld/ctrl_modelsim" ctrl_modelsim
+	project addfile "E:/work/controller_cpld/sim/UFM_WB_TB.v"
+	project addfile "E:/work/controller_cpld/src/efb_define_def.v"
+	project addfile "E:/work/controller_cpld/src/UFM_WB_top.v"
+	project addfile "E:/work/controller_cpld/ip/EFB_UFM.v"
+	project addfile "E:/work/controller_cpld/ip/USR_MEM.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog -work work "E:/work/controller_cpld/sim/UFM_WB_TB.v"
+	vlog -work work "E:/work/controller_cpld/src/efb_define_def.v"
+	vlog -work work "E:/work/controller_cpld/src/UFM_WB_top.v"
+	vlog -work work "E:/work/controller_cpld/ip/EFB_UFM.v"
+	vlog -work work "E:/work/controller_cpld/ip/USR_MEM.v"
+} else {
+	project open "E:/work/controller_cpld/bld/ctrl_modelsim/ctrl_modelsim"
+}
+vsim -version

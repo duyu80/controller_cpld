@@ -1,0 +1,5 @@
+"../../../sim/UFM_WB_TB.v"	1
+"../../../src/efb_define_def.v"	1
+"../../../src/UFM_WB_top.v"	1
+"../../../ip/USR_MEM.v"	1
+"../../../ip/EFB_UFM.v"	1

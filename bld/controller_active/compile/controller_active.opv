@@ -1,0 +1,1 @@
+ -erf "E:\work\controller_cpld\bld\controller_active\compile\controller_active.erf" -work work -lc E:/work/controller_cpld/bld/controller_active/library.cfg -fl E:/work/controller_cpld/bld/controller_active/projlib.cfg -o E:/work/controller_cpld/bld/controller_active/compile -l "work" -sve   -O2
